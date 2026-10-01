@@ -1,0 +1,25 @@
+{
+  "version": "0.3.0-dev.7",
+  "build": "test-20261002-035938",
+  "date": "2026-10-02",
+  "art_batch": 2,
+  "new_art_assets": 26,
+  "coverage": {
+    "equipment": 16,
+    "materials": 8,
+    "runes": 2,
+    "monsters": 10
+  },
+  "files": {
+    "FONT-LICENSE.txt": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+    "GODOT-COPYRIGHT.txt": "2039020f520ebd55592070ede2ef38dfbc28a6550140008da004143872789e5d",
+    "GODOT-LICENSE.txt": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
+    "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+    "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+    "index.html": "d881ca51a7b1682b7aff6f3925d1adecdf44babac7089a67f7313d479fb0e06d",
+    "index.js": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f",
+    "index.pck": "f324cfdff0b48208eb10771fc6e1008c37dcd58cf28fe59606087f1864b17403",
+    "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+    "index.wasm": "1cee4c470d1fea06f7f3fbd22a563ffd0f1a55b54596b33cb9b695021ae476b0"
+  }
+}
