@@ -14,3 +14,5 @@
 浏览器存档保存在当前站点的IndexedDB，不与Windows互通；清除站点数据会丢失存档。
 本地启动示例（已安装Python时）：python -m http.server 8765 --bind 127.0.0.1
 然后打开 http://127.0.0.1:8765 。在线试玩：https://zongzongtate.github.io/zongrepository.github.io/dual-curse/ 。
+
+属性基础更新：菜单→数值调试可查看配置属性及来源；这是只读原型，条件效果以适用范围为准。本轮不改变战斗数值。
