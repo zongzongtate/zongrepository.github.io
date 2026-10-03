@@ -1,6 +1,6 @@
 {
-  "version": "0.5.0-dev.9",
-  "build": "test-20261003-224407",
+  "version": "0.5.0-dev.10",
+  "build": "test-20261003-225409",
   "date": "2026-10-03",
   "art_batch": 5,
   "new_art_assets": 0,
@@ -38,9 +38,9 @@
     "GODOT-LICENSE.txt": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
     "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
     "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-    "index.html": "f1063ddbb597af65ae77f05216fdf18a637d0c41f5e403278a6a806a047d922b",
+    "index.html": "40ee1042570997420caebb12800991232d2aea6b474d7656557aaf009db2bd20",
     "index.js": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f",
-    "index.pck": "c13b3e961494d09d37313fead7424a6e2ea9c95619dde8b0ee9865f70c3b3530",
+    "index.pck": "8b335d9021b57a944feba0a7e212d568c14c4488a6308d3eb68b94ecee5d0863",
     "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
     "index.wasm": "1cee4c470d1fea06f7f3fbd22a563ffd0f1a55b54596b33cb9b695021ae476b0"
   },
@@ -113,5 +113,25 @@
   "star_font_verification": "all_44_node_names_and_generated_descriptions_in_native_export",
   "web_pack_cache": "sha256_query_key_original_vfs_path",
   "main_lines": 2345,
-  "drop_rate_wording": "percent_sign_without_changing_additive_probability"
+  "drop_rate_wording": "percent_sign_without_changing_additive_probability",
+  "style_mp_formula": "unit_aware_flat_and_percentage_regular_effects",
+  "style_120_mp_examples": {
+    "flow": {
+      "per_mp": "0.1%",
+      "regular": "12%"
+    },
+    "ember": {
+      "per_mp": "0.2%",
+      "regular": "24%"
+    },
+    "force": {
+      "per_mp": "0.1",
+      "regular": "12 flat attack"
+    },
+    "treasure": {
+      "regular": "12%",
+      "special": "10%",
+      "total": "22%"
+    }
+  }
 }

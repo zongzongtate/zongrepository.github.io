@@ -109,12 +109,12 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":92214728,"index.wasm":38057390},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":92214872,"index.wasm":38057390},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 // BEGIN PACK CACHE KEY
 // Fetch each build under its content identity; keep index.pck inside Godot's VFS.
-const packURL = 'index.pck?v=c13b3e961494d09d37313fead7424a6e2ea9c95619dde8b0ee9865f70c3b3530';
+const packURL = 'index.pck?v=8b335d9021b57a944feba0a7e212d568c14c4488a6308d3eb68b94ecee5d0863';
 GODOT_CONFIG.fileSizes[packURL] = GODOT_CONFIG.fileSizes['index.pck'];
 const preloadOriginal = engine.preloadFile.bind(engine);
 engine.preloadFile = (file, path) => preloadOriginal(file === 'index.pck' ? packURL : file, path);
