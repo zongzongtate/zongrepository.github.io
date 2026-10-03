@@ -94,8 +94,6 @@
     "character_stats",
     "route_projection",
     "failure_page",
-    "log_presenter",
-    "failure_page",
     "log_presenter"
   ],
   "offline_slice_ms": 150,
@@ -108,7 +106,6 @@
     "8h high-load settlement exceeds 10s",
     "Web/mobile performance and save persistence acceptance",
     "growth and reward balance; one bow build fails sustained idle after first clear",
-    "Reported star-chart garbled text not reproduced locally; browser verification unavailable",
     "Reported star-chart garbled text not reproduced locally; browser verification unavailable"
   ],
   "source_scripts_verified": 173,
