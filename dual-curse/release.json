@@ -1,7 +1,7 @@
 {
-  "version": "0.5.0-dev.14",
-  "build": "test-20261003-235347",
-  "date": "2026-10-03",
+  "version": "0.5.0-dev.15",
+  "build": "test-20261004-002352",
+  "date": "2026-10-04",
   "art_batch": 5,
   "new_art_assets": 0,
   "registered_art_assets": 74,
@@ -38,9 +38,9 @@
     "GODOT-LICENSE.txt": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
     "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
     "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-    "index.html": "05cbd05dae38f4700a5a751e514deb05af5a131a225f0abccaf91c9f181d61e5",
+    "index.html": "32ce5f49505da43c8d8bd8cb178b63cbf20d9f3eb19dc604814fc0972f1fb108",
     "index.js": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f",
-    "index.pck": "56f76409e24b04dde0ec64274e82d4b8149ad47baed22aff649db2e16d8cd2ec",
+    "index.pck": "40ca5aa4f4d8e574f2d47aa70ef3a78cf0f74d2b3c61f9b1a0e97287efe5ab20",
     "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
     "index.wasm": "1cee4c470d1fea06f7f3fbd22a563ffd0f1a55b54596b33cb9b695021ae476b0"
   },
@@ -144,5 +144,10 @@
     "count": 59,
     "size_limit": 384,
     "mipmaps": true
+  },
+  "knockback_tuning": {
+    "resist_per_stack": 0.075,
+    "resist_cap": 0.8,
+    "repulsion_blade": 16.2
   }
 }

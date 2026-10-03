@@ -114,7 +114,7 @@ const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 // BEGIN PACK CACHE KEY
 // Fetch each build under its content identity; keep index.pck inside Godot's VFS.
-const packURL = 'index.pck?v=56f76409e24b04dde0ec64274e82d4b8149ad47baed22aff649db2e16d8cd2ec';
+const packURL = 'index.pck?v=40ca5aa4f4d8e574f2d47aa70ef3a78cf0f74d2b3c61f9b1a0e97287efe5ab20';
 GODOT_CONFIG.fileSizes[packURL] = GODOT_CONFIG.fileSizes['index.pck'];
 const preloadOriginal = engine.preloadFile.bind(engine);
 engine.preloadFile = (file, path) => preloadOriginal(file === 'index.pck' ? packURL : file, path);
