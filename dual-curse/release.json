@@ -1,6 +1,6 @@
 {
-  "version": "0.5.0-dev.11",
-  "build": "test-20261003-230535",
+  "version": "0.5.0-dev.12",
+  "build": "test-20261003-232949",
   "date": "2026-10-03",
   "art_batch": 5,
   "new_art_assets": 0,
@@ -38,9 +38,9 @@
     "GODOT-LICENSE.txt": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
     "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
     "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-    "index.html": "ba4901896c1838a2b54914444807a26fb1bdc32644b651a9c9cc7790ade9e2d5",
+    "index.html": "bbae85339e31f13189b5a8cec2cd03b8766b9c347012ab0add05d0ebac3a5adf",
     "index.js": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f",
-    "index.pck": "dae8c96c85cdc406615b77588625ae5c91aef7d68a9b31bc1632053100ccf162",
+    "index.pck": "8a8756a6741ccc1f7dbc1401357d4a4a3eaedd5ce299f64ff678ea967dc31132",
     "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
     "index.wasm": "1cee4c470d1fea06f7f3fbd22a563ffd0f1a55b54596b33cb9b695021ae476b0"
   },
@@ -108,7 +108,7 @@
     "growth and reward balance; one bow build fails sustained idle after first clear",
     "Reported star-chart garbled text not reproduced locally; browser verification unavailable"
   ],
-  "source_scripts_verified": 175,
+  "source_scripts_verified": 176,
   "tooltip_font": "explicit_theme_for_detached_popups",
   "star_font_verification": "all_44_node_names_and_generated_descriptions_in_native_export",
   "web_pack_cache": "sha256_query_key_original_vfs_path",
@@ -135,5 +135,7 @@
     }
   },
   "milestone_sources": "category_subject_threshold_with_verified_attribution",
-  "milestone_art": "existing_material_monster_and_four_behavior_icons; rain dog shares gate dog art"
+  "milestone_art": "existing_material_monster_and_four_behavior_icons; rain dog shares gate dog art",
+  "self_burial_refresh": "runtime_only_no_hidden_page_rebuild",
+  "mechanism_notices": "bounded_6_deduplicated_cosmetic_layer"
 }
