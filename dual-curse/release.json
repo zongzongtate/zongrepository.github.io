@@ -1,6 +1,6 @@
 {
-  "version": "0.5.0-dev.1",
-  "build": "test-20261003-122725",
+  "version": "0.5.0-dev.2",
+  "build": "test-20261003-131324",
   "date": "2026-10-03",
   "art_batch": 4,
   "new_art_assets": 0,
@@ -38,9 +38,9 @@
     "GODOT-LICENSE.txt": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
     "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
     "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-    "index.html": "4d90b9f7cb057590c533782085438bf0fb8da97a7cfc13730c9b9cbfa836f5bd",
+    "index.html": "849f3f46d7b12e9fa8b035723236d7c9e24c859c6a58b96352bf5933c28f3a96",
     "index.js": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f",
-    "index.pck": "22ae6d36346317d5312e0bb08de7655c0bdfef8dd64c9955bab7ebfa8ff0ce51",
+    "index.pck": "e36e14a3688e0c0c3d35e70623969aa49296c2f82a2318cc58ffae0bc096ba39",
     "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
     "index.wasm": "1cee4c470d1fea06f7f3fbd22a563ffd0f1a55b54596b33cb9b695021ae476b0"
   },
@@ -62,5 +62,10 @@
   ],
   "awakening_stories": 3,
   "inspection": "bounded_cards_with_pair_stat_changes",
-  "offline_report": "kills_materials_new_milestones"
+  "offline_report": "kills_materials_new_milestones",
+  "star_chart": "shared_connected_graph",
+  "star_nodes": 44,
+  "star_mechanisms": 8,
+  "multiple_mechanisms": true,
+  "offline_native_multi_core_seconds": 9.642333
 }
