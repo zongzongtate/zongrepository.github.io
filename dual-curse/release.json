@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0-dev.7",
-  "build": "test-20261003-114236",
+  "version": "0.5.0-dev.1",
+  "build": "test-20261003-122725",
   "date": "2026-10-03",
   "art_batch": 4,
-  "new_art_assets": 36,
+  "new_art_assets": 0,
   "registered_art_assets": 65,
   "weapon_pools": {
     "death": [
@@ -16,8 +16,8 @@
   },
   "coverage": {
     "equipment": [
-      31,
-      31
+      34,
+      34
     ],
     "materials": [
       20,
@@ -38,17 +38,29 @@
     "GODOT-LICENSE.txt": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
     "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
     "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-    "index.html": "32c06e0dfbc8370e5c1c828656ef278b5da979bd0eae510a9c97452d2157a43e",
+    "index.html": "4d90b9f7cb057590c533782085438bf0fb8da97a7cfc13730c9b9cbfa836f5bd",
     "index.js": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f",
-    "index.pck": "1774463bcc6786eff3cb91f5938aa9659c9dd9d8f61b027dcb98c6bac432a83c",
+    "index.pck": "22ae6d36346317d5312e0bb08de7655c0bdfef8dd64c9955bab7ebfa8ff0ce51",
     "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
     "index.wasm": "1cee4c470d1fea06f7f3fbd22a563ffd0f1a55b54596b33cb9b695021ae476b0"
   },
   "offline_cap_hours": 8,
   "offline_progress": "elapsed_seconds_and_estimated_remaining",
   "offline_settlement": "event_bounded_replay_with_invalidated_effect_cache",
-  "offline_native_self_burial_seconds": 7.802336,
+  "offline_native_self_burial_seconds": 4.987692,
   "world_picker": "separate_illustrated_worlds",
   "equipment_ui": "grid_with_inspection_actions_and_comparison_panels",
-  "world_backgrounds": 3
+  "world_backgrounds": 3,
+  "rune_mp_by_rarity": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+  ],
+  "awakening_stories": 3,
+  "inspection": "bounded_cards_with_pair_stat_changes",
+  "offline_report": "kills_materials_new_milestones"
 }
