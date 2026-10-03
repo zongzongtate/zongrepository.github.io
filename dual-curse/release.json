@@ -1,6 +1,6 @@
 {
-  "version": "0.5.0-dev.13",
-  "build": "test-20261003-233943",
+  "version": "0.5.0-dev.14",
+  "build": "test-20261003-235347",
   "date": "2026-10-03",
   "art_batch": 5,
   "new_art_assets": 0,
@@ -38,9 +38,9 @@
     "GODOT-LICENSE.txt": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
     "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
     "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-    "index.html": "18aa2c4ec536d395084272cd5647050d76a64719d2ce7f7bb94ab7804d8d65fa",
+    "index.html": "05cbd05dae38f4700a5a751e514deb05af5a131a225f0abccaf91c9f181d61e5",
     "index.js": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f",
-    "index.pck": "02b55494a0cfe42ac4a87c8b5ee4a82fe71d52313c1165db81529e4349be327b",
+    "index.pck": "56f76409e24b04dde0ec64274e82d4b8149ad47baed22aff649db2e16d8cd2ec",
     "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
     "index.wasm": "1cee4c470d1fea06f7f3fbd22a563ffd0f1a55b54596b33cb9b695021ae476b0"
   },
@@ -138,5 +138,11 @@
   "milestone_art": "existing_material_monster_and_four_behavior_icons; rain dog shares gate dog art",
   "self_burial_refresh": "runtime_only_no_hidden_page_rebuild",
   "mechanism_notices": "bounded_6_deduplicated_cosmetic_layer",
-  "enemy_information": "explicit_button_snapshot_map_elite_probability_actual_material_and_conditional_elite_drops"
+  "enemy_information": "explicit_button_snapshot_map_elite_probability_actual_material_and_conditional_elite_drops",
+  "page_lifecycle": "visible_only_refresh_fresh_on_open",
+  "item_texture_imports": {
+    "count": 59,
+    "size_limit": 384,
+    "mipmaps": true
+  }
 }
