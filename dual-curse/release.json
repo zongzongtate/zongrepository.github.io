@@ -1,10 +1,10 @@
 {
-  "version": "0.5.0-dev.3",
-  "build": "test-20261003-140056",
+  "version": "0.5.0-dev.4",
+  "build": "test-20261003-141711",
   "date": "2026-10-03",
-  "art_batch": 4,
-  "new_art_assets": 0,
-  "registered_art_assets": 65,
+  "art_batch": 5,
+  "new_art_assets": 9,
+  "registered_art_assets": 74,
   "weapon_pools": {
     "death": [
       "martial"
@@ -38,9 +38,9 @@
     "GODOT-LICENSE.txt": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
     "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
     "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-    "index.html": "424a758307606f1bbad0f2940349ab4f015d5df67325a11fc16f0e0d62868fcf",
+    "index.html": "222266e9851f388429eed7153e0b9503d04415daf6c0a0e2ced483652b032145",
     "index.js": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f",
-    "index.pck": "e91658504a037c482af34c56d548432e5d50179fa99d52cd46387bddd375116a",
+    "index.pck": "fc1ea6799f85247afc11e04567d96b3b75f3500a0a53a6fa40a76e36a302f035",
     "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
     "index.wasm": "1cee4c470d1fea06f7f3fbd22a563ffd0f1a55b54596b33cb9b695021ae476b0"
   },
@@ -71,5 +71,8 @@
   "save_schema": 6,
   "stat_wording": "semantic_colors_inc_dec_more_less",
   "attack_speed": "diminishing_returns_asymptote_15x",
-  "attack_panel": "character_only_without_target_modifiers"
+  "attack_panel": "character_only_without_target_modifiers",
+  "gathering_scene_props": 9,
+  "gathering_loot_origin": "scene_prop",
+  "offline_native_multi_core_benchmark_version": "0.5.0-dev.3"
 }
