@@ -1,6 +1,6 @@
 {
-  "version": "0.5.0-dev.7",
-  "build": "test-20261003-213611",
+  "version": "0.5.0-dev.8",
+  "build": "test-20261003-222424",
   "date": "2026-10-03",
   "art_batch": 5,
   "new_art_assets": 0,
@@ -38,9 +38,9 @@
     "GODOT-LICENSE.txt": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
     "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
     "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-    "index.html": "3f357734ce5e8fce9a76d177244d213b70b6547509e6e08d71cd0de911a37518",
+    "index.html": "b0d4c61b67efa44a06e4ccbfd18196bd914e1e455b979c5fb89e920f36bd9928",
     "index.js": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f",
-    "index.pck": "aec94096c59eca56634f5124d76c02d214c4fd421ab2ce1c65778c1a789c6265",
+    "index.pck": "07484a480d1df2154722da41a7fb717e36172fed424ccfb26af84b8d8f3c0975",
     "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
     "index.wasm": "1cee4c470d1fea06f7f3fbd22a563ffd0f1a55b54596b33cb9b695021ae476b0"
   },
@@ -92,7 +92,9 @@
     "player_session",
     "page_coordinator",
     "character_stats",
-    "route_projection"
+    "route_projection",
+    "failure_page",
+    "log_presenter"
   ],
   "offline_slice_ms": 150,
   "offline_quiet_path": "event_bounded_no_event_slices_only",
@@ -103,7 +105,12 @@
   "known_open_items": [
     "8h high-load settlement exceeds 10s",
     "Web/mobile performance and save persistence acceptance",
-    "growth and reward balance; one bow build fails sustained idle after first clear"
+    "growth and reward balance; one bow build fails sustained idle after first clear",
+    "Reported star-chart garbled text not reproduced locally; browser verification unavailable"
   ],
-  "source_scripts_verified": 171
+  "source_scripts_verified": 173,
+  "tooltip_font": "explicit_theme_for_detached_popups",
+  "star_font_verification": "all_44_node_names_and_generated_descriptions_in_native_export",
+  "web_pack_cache": "sha256_query_key_original_vfs_path",
+  "main_lines": 2345
 }
