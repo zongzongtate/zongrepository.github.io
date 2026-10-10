@@ -1,7 +1,7 @@
 {
-  "version": "0.5.0-dev.35",
+  "version": "0.5.0-dev.36",
   "date": "2026-10-11",
-  "build": "test-20261011-033152",
+  "build": "test-20261011-034835",
   "status": "development_preview",
   "save_schema": 16,
   "random_packs": {
@@ -24,7 +24,7 @@
     "real_online_clock": true,
     "pacing_history_marked": true
   },
-  "content_changes": "bounded soul lamp haste and diminishing revival protection; elapsed-time gate for kill/spell reductions; conservative legacy checkpoint migration; consistent haste/source UI",
+  "content_changes": "prominent enemy-icon button left of equipment; card-based base/effective elite probabilities, complete regional affix pools, conditional special drop rates and unique-rune acquisition status; no combat or reward changes",
   "milestone_rewards": {
     "revision": 28,
     "active_rewards": 1248,
@@ -114,7 +114,7 @@
   },
   "earned_growth": {
     "evidence_version": "0.5.0-dev.35",
-    "rerun_in_this_batch": true,
+    "rerun_in_this_batch": false,
     "samples": 12,
     "seeds": [
       11,
@@ -215,8 +215,8 @@
   },
   "files": {
     "windows/DualCurse.exe": {
-      "bytes": 152601384,
-      "sha256": "338dab1a395e67b1a39ed08d2045004991de18277a093aebfcbd26562c1e00a4"
+      "bytes": 152606376,
+      "sha256": "0a2d928d926063231625d75e690d002a27ee5b61cf7063c4c3e1fcb0631baf7e"
     },
     "windows/FONT-LICENSE.txt": {
       "bytes": 4388,
@@ -252,15 +252,15 @@
     },
     "web/index.html": {
       "bytes": 5754,
-      "sha256": "8f69f89d4219fc229edfcb0c9c30745c4d4809d0dc45d07a5f1bcba8e927f338"
+      "sha256": "12b1ddf266fc66e41cfd849625c768277ece226593ce8bb13a5b5bbfe97f4dda"
     },
     "web/index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "web/index.pck": {
-      "bytes": 55839000,
-      "sha256": "72f9febaf763540fd2d27d8677957e738cdfae7575747081b33f4569a438ef2d"
+      "bytes": 55843992,
+      "sha256": "907039884f029b94cb2ac83f1fe20b1867c197d2ca56338981535aaf7761886c"
     },
     "web/index.png": {
       "bytes": 21443,
@@ -272,53 +272,36 @@
     }
   },
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
-  "previous_online_version": "0.5.0-dev.34",
+  "previous_online_version": "0.5.0-dev.35",
+  "previous_native_high_load_sample": {
+    "version": "0.5.0-dev.35",
+    "wall_seconds": 16.183268,
+    "clears": 10809,
+    "failed": false,
+    "rerun_in_this_batch": false
+  },
+  "enemy_information": {
+    "revision": 36,
+    "entry_left_of_weapon": true,
+    "current_monster_icon": true,
+    "entry_minimum": [
+      154,
+      48
+    ],
+    "phone_touch_height": 54,
+    "base_and_effective_elite_chance": true,
+    "complete_regional_affix_pool": true,
+    "conditional_and_per_wave_special_rates": true,
+    "unique_rune_history_shown": true,
+    "probability_decimals_up_to": 4,
+    "read_only_no_rng": true,
+    "evidence": "docs/enemy-information-dev36.md"
+  },
   "new_features_since_previous_online": [
-    "bounded_soul_lamp_haste",
-    "diminishing_revival_protection",
-    "minimum_elapsed_recovery_gate",
-    "legacy_checkpoint_migration",
-    "consistent_haste_ui",
-    "earned_growth_rerun"
-  ],
-  "native_high_load_sample": [
-    {
-      "capped_hours": 8.0,
-      "clears": 10809,
-      "core": "arcane_echo",
-      "cores": [
-        "self_burial_spell",
-        "burial_fire",
-        "soul_overload",
-        "phantom_chase",
-        "arcane_echo"
-      ],
-      "failed": false,
-      "location": "loc_1_boss",
-      "mode": "combat",
-      "requested_hours": 24.0,
-      "simulated_seconds": 28799.9999999723,
-      "wall_seconds": 16.183268,
-      "weapon": "old_wood_bow_plus"
-    },
-    {
-      "capped_hours": 8.0,
-      "clears": 0,
-      "core": "arcane_echo",
-      "cores": [
-        "self_burial_spell",
-        "burial_fire",
-        "soul_overload",
-        "phantom_chase",
-        "arcane_echo"
-      ],
-      "failed": false,
-      "location": "loc_1_boss",
-      "mode": "gathering",
-      "requested_hours": 24.0,
-      "simulated_seconds": 0,
-      "wall_seconds": 0.001592,
-      "weapon": "old_wood_bow_plus"
-    }
+    "prominent_enemy_icon_entry_left_of_weapon",
+    "base_and_effective_elite_probability",
+    "complete_regional_affix_pool",
+    "conditional_special_drop_rates",
+    "unique_rune_acquisition_status"
   ]
 }
