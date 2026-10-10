@@ -1,71 +1,40 @@
 {
-  "version": "0.5.0-dev.16",
+  "version": "0.5.0-dev.20",
   "date": "2026-10-10",
-  "build": "test-20261010-102654",
+  "build": "test-20261010-171341",
   "status": "development_preview",
-  "save_schema": 6,
-  "source_scripts_verified": 181,
-  "new_features": [
-    "portable_text_save_export_import",
-    "pre_import_backup_restore",
-    "bounded_authored_awakening_progress",
-    "centered_responsive_offline_settlement_overlay",
-    "centered_responsive_offline_settlement_overlay"
-  ],
-  "native_high_load_sample": [
-    {
-      "capped_hours": 8.0,
-      "clears": 10730,
-      "core": "arcane_echo",
-      "cores": [
-        "self_burial_spell",
-        "burial_fire",
-        "soul_overload",
-        "phantom_chase",
-        "arcane_echo"
-      ],
-      "failed": false,
-      "location": "loc_1_boss",
-      "mode": "combat",
-      "requested_hours": 24.0,
-      "simulated_seconds": 28799.9999999721,
-      "wall_seconds": 9.736913,
-      "weapon": "old_wood_bow_plus"
-    },
-    {
-      "capped_hours": 8.0,
-      "clears": 0,
-      "core": "arcane_echo",
-      "cores": [
-        "self_burial_spell",
-        "burial_fire",
-        "soul_overload",
-        "phantom_chase",
-        "arcane_echo"
-      ],
-      "failed": false,
-      "location": "loc_1_boss",
-      "mode": "gathering",
-      "requested_hours": 24.0,
-      "simulated_seconds": 0,
-      "wall_seconds": 0.001013,
-      "weapon": "old_wood_bow_plus"
-    }
-  ],
-  "web_live_verification": "see_build_online_verification_json_for_served_integrity_result",
-  "mobile_device_verification": "not_completed",
+  "save_schema": 9,
+  "published": true,
   "stable_0_5": false,
+  "source_scripts_verified": 192,
+  "test_speed": {
+    "menu": "测试速度 60倍",
+    "default": false,
+    "saved": true,
+    "live_multiplier": 60,
+    "offline_multiplier": 1,
+    "real_online_clock": true,
+    "pacing_history_marked": true
+  },
+  "content_changes": "none; dev.19 definitions retained",
+  "native_10_second_target_passed": false,
+  "web_browser_gameplay": "not_verified",
+  "mobile_device_verification": "not_completed",
   "remaining": [
-    "repeatable_offline_performance_margin_and_web_mobile_10_second_acceptance",
-    "20_minute_prologue_including_player_operations_and_sustained_farming",
-    "cross_world_growth_and_reward_budgets",
-    "browser_refresh_interruption_and_real_mobile_save_persistence",
-    "rebuildable_source_checkpoint"
+    "starter_bow_sustained_boss_balance",
+    "earned_route_blueprint_material_timing",
+    "boss_behavior_and_random_drop_calibration",
+    "unique_recipe_routes_and_permanent_growth_budgets",
+    "offline_margin_and_platform_acceptance"
   ],
+  "community_test": {
+    "planned_after": "0.7 completed",
+    "player_feedback": "large_changes_in_versioned_batches"
+  },
   "files": {
     "windows/DualCurse.exe": {
-      "bytes": 143413336,
-      "sha256": "02484eccdd5de8872cdba7854880bb01da4ac1fc03532c982dce39a84dff5d17"
+      "bytes": 143472904,
+      "sha256": "71be6a9978d603a2816b421c5ee6591af7b66ef2aecebd8d1606be4fdfd6c86b"
     },
     "windows/FONT-LICENSE.txt": {
       "bytes": 4388,
@@ -101,15 +70,15 @@
     },
     "web/index.html": {
       "bytes": 5754,
-      "sha256": "d78798fa1e22446db8b05a8d2b18aa1a9d0b3db3e834f015f39c5188c51303da"
+      "sha256": "850ad902cc8a8cc006e21f42f2c29ddae20f7d36bbf284f9497fdbb2d36683ee"
     },
     "web/index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "web/index.pck": {
-      "bytes": 46650956,
-      "sha256": "1b54e8ac63e97117b6a3c8b6d5713efa3dc3731d1e722d37963aa6ab8d3d83f1"
+      "bytes": 46710524,
+      "sha256": "0012b598c21b90a7cd3941158011b7fab6064480eadc56fb45facc4abffda784"
     },
     "web/index.png": {
       "bytes": 21443,
@@ -120,8 +89,53 @@
       "sha256": "1cee4c470d1fea06f7f3fbd22a563ffd0f1a55b54596b33cb9b695021ae476b0"
     }
   },
-  "native_high_load_measurement_build": "test-20261010-101605",
-  "offline_progress_ui": "centered_bounded_card_with_full_screen_scrim; verified_live_settlement_desktop_portrait_and_rotation",
-  "browser_gameplay_verification": "not_completed",
-  "publication_url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/"
+  "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
+  "previous_online_version": "0.5.0-dev.16",
+  "new_features_since_previous_online": [
+    "world_hubs_npc_quests_merchants",
+    "lifetime_unique_rune_crafting_with_mp_conservation",
+    "equipment_instance_upgrade_and_museum_protection",
+    "long_milestone_blueprints_and_stable_claim_identity",
+    "saved_live_test_speed_60x_switch"
+  ],
+  "native_high_load_sample": [
+    {
+      "capped_hours": 8.0,
+      "clears": 10467,
+      "core": "arcane_echo",
+      "cores": [
+        "self_burial_spell",
+        "burial_fire",
+        "soul_overload",
+        "phantom_chase",
+        "arcane_echo"
+      ],
+      "failed": false,
+      "location": "loc_1_boss",
+      "mode": "combat",
+      "requested_hours": 24.0,
+      "simulated_seconds": 28799.9999999781,
+      "wall_seconds": 10.505472,
+      "weapon": "old_wood_bow_plus"
+    },
+    {
+      "capped_hours": 8.0,
+      "clears": 0,
+      "core": "arcane_echo",
+      "cores": [
+        "self_burial_spell",
+        "burial_fire",
+        "soul_overload",
+        "phantom_chase",
+        "arcane_echo"
+      ],
+      "failed": false,
+      "location": "loc_1_boss",
+      "mode": "gathering",
+      "requested_hours": 24.0,
+      "simulated_seconds": 0,
+      "wall_seconds": 0.001133,
+      "weapon": "old_wood_bow_plus"
+    }
+  ]
 }
