@@ -1,7 +1,7 @@
 {
-  "version": "0.5.0-dev.26",
+  "version": "0.5.0-dev.27",
   "date": "2026-10-10",
-  "build": "test-20261010-215105",
+  "build": "test-20261010-221634",
   "status": "development_preview",
   "save_schema": 14,
   "published": true,
@@ -16,7 +16,7 @@
     "real_online_clock": true,
     "pacing_history_marked": true
   },
-  "content_changes": "uniform milestone card art slots, two-line title heights and progress placement across all four categories",
+  "content_changes": "character stat categories, stable source totals and earned tiers progressively expand; hover shows category totals",
   "milestone_rewards": {
     "revision": 25,
     "active_rewards": 1748,
@@ -36,6 +36,16 @@
     "cumulative_percent_cap": null,
     "historical_clawback": false,
     "ledger_prefix": "dev25:"
+  },
+  "character_source_ui": {
+    "category_initially_collapsed": true,
+    "source_and_tier_totals": true,
+    "stable_identity_grouping": true,
+    "lazy_children": true,
+    "historical_unknown_kept_as_aggregate": true,
+    "fixed_and_percentage_units_separate": true,
+    "increase_and_more_separate": true,
+    "evidence": "docs/evidence/character-source-ui-dev27.json"
   },
   "milestone_ui": {
     "card": [
@@ -96,8 +106,8 @@
   },
   "files": {
     "windows/DualCurse.exe": {
-      "bytes": 143505480,
-      "sha256": "f0df7f6e61394134de0dbe4027302f102835e62fbdb73d09eacbf9708750df34"
+      "bytes": 143509880,
+      "sha256": "dbee970c7be76cd8c98632dcb15d3bf42886875a32f52c30aae41df8f2fba043"
     },
     "windows/FONT-LICENSE.txt": {
       "bytes": 4388,
@@ -133,15 +143,15 @@
     },
     "web/index.html": {
       "bytes": 5754,
-      "sha256": "b96a0ebbc4d977aacdaf212fa362e1b00d3f176caee64344acb63a1390ed6098"
+      "sha256": "7425727b6b19e1deade015538c59ff2b7eab1c24296619f56349fcaa260cf9b3"
     },
     "web/index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "web/index.pck": {
-      "bytes": 46743100,
-      "sha256": "a4b8d42adfe46e65adf7262f37f8aa80b1c4599b0ce274e17658be7861022eab"
+      "bytes": 46747500,
+      "sha256": "e913a509ef4439d5de0abc44be95f59ca42e577f0eb2c0eb5aadff8d73b8e50a"
     },
     "web/index.png": {
       "bytes": 21443,
@@ -153,11 +163,12 @@
     }
   },
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
-  "previous_online_version": "0.5.0-dev.25",
+  "previous_online_version": "0.5.0-dev.26",
   "new_features_since_previous_online": [
-    "uniform_milestone_art_and_text_slots",
-    "shared_ui_art_dimensions",
-    "two_line_milestone_titles"
+    "grouped_character_source_summaries",
+    "same_monster_and_material_source_totals",
+    "expandable_earned_tiers",
+    "lazy_source_detail_creation"
   ],
   "native_high_load_sample": [
     {
@@ -176,7 +187,7 @@
       "mode": "combat",
       "requested_hours": 24.0,
       "simulated_seconds": 28799.9999999696,
-      "wall_seconds": 17.898358,
+      "wall_seconds": 18.064756,
       "weapon": "old_wood_bow_plus"
     },
     {
@@ -195,7 +206,7 @@
       "mode": "gathering",
       "requested_hours": 24.0,
       "simulated_seconds": 0,
-      "wall_seconds": 0.002128,
+      "wall_seconds": 0.00195,
       "weapon": "old_wood_bow_plus"
     }
   ]
