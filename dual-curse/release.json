@@ -1,12 +1,12 @@
 {
-  "version": "0.5.0-dev.24",
+  "version": "0.5.0-dev.25",
   "date": "2026-10-10",
-  "build": "test-20261010-191838",
+  "build": "test-20261010-211331",
   "status": "development_preview",
-  "save_schema": 13,
+  "save_schema": 14,
   "published": true,
   "stable_0_5": false,
-  "source_scripts_verified": 196,
+  "source_scripts_verified": 199,
   "test_speed": {
     "menu": "测试速度 60倍",
     "default": false,
@@ -16,18 +16,26 @@
     "real_online_clock": true,
     "pacing_history_marked": true
   },
-  "content_changes": "regular half-step milestone awards capped at five percent per stat; historical earned attributes preserved",
+  "content_changes": "round milestone tiers; twenty elite tiers per species; uniformly graded normal percentages; queued three-second unlocks and real payment projections; faster encounters",
   "milestone_rewards": {
-    "revision": 24,
-    "active_rewards_regularized": 1758,
-    "previous_payout_definitions_preserved": 1808,
+    "revision": 25,
+    "active_rewards": 1748,
+    "historical_payment_definitions": 1808,
+    "retired_rows": 60,
+    "ordinary_tiers": 50,
+    "ordinary_max": 48000,
+    "all_active_counts_multiple_of_ten": true,
+    "elite_tiers_per_species": 20,
+    "elite_first": 10,
+    "elite_max": 300,
+    "ordinary_percent_start": 0.005,
     "percent_step": 0.005,
     "percent_cap_per_stat_payment": 0.05,
+    "ordinary_tiers_per_percent_step": 5,
     "flat_step": 0.5,
-    "integer_capacity_and_counts": true,
     "cumulative_percent_cap": null,
     "historical_clawback": false,
-    "ledger_prefix": "dev24:"
+    "ledger_prefix": "dev25:"
   },
   "earned_growth": {
     "samples": 12,
@@ -37,10 +45,12 @@
       47
     ],
     "first_clear_range_seconds": [
-      560.0,
-      726.0
+      751.0,
+      931.0
     ],
     "all_sustained_boss": true,
+    "strategy": "Earn all items and core points; defeat 40 wax priests before boss entry.",
+    "optional_armor": false,
     "player_reading_time_included": false
   },
   "native_10_second_target_passed": false,
@@ -60,8 +70,8 @@
   },
   "files": {
     "windows/DualCurse.exe": {
-      "bytes": 143491344,
-      "sha256": "47602544f6fbdf2cd67c0d02e44d9bd59a2bd959ef31a3f3e56d0fc22a10968f"
+      "bytes": 143504104,
+      "sha256": "d449c9d2f3611dfbee457a145e202131c846b544a92795d3dc3c1699dd22f38c"
     },
     "windows/FONT-LICENSE.txt": {
       "bytes": 4388,
@@ -97,15 +107,15 @@
     },
     "web/index.html": {
       "bytes": 5754,
-      "sha256": "0a5aaec6586a781effde8acf78a17c79138a62aaf4b91a9472501eb7e97b64a1"
+      "sha256": "2ecbb854d9d2ee943b3b34bec71325fee8a07bcc01e720132d1c90203756c69b"
     },
     "web/index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "web/index.pck": {
-      "bytes": 46728960,
-      "sha256": "f3f40aeba80873f1eec5130b2b0f6213cf3e30ed0f6f108b7779c7d9daba3b00"
+      "bytes": 46741724,
+      "sha256": "30670063754701c54401d3ab8c6abe06ca190c0d758fef68fe91de2139b38863"
     },
     "web/index.png": {
       "bytes": 21443,
@@ -117,16 +127,18 @@
     }
   },
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
-  "previous_online_version": "0.5.0-dev.23",
+  "previous_online_version": "0.5.0-dev.24",
   "new_features_since_previous_online": [
-    "half_step_milestone_rewards",
-    "five_percent_per_stat_payment_cap",
-    "grandfathered_historical_growth_and_one_time_beneficial_topups"
+    "round_milestone_counts",
+    "twenty_elite_tiers",
+    "uniform_normal_percent_rewards",
+    "three_second_unlocks_with_individual_attribute_results",
+    "faster_encounters"
   ],
   "native_high_load_sample": [
     {
       "capped_hours": 8.0,
-      "clears": 13877,
+      "clears": 14271,
       "core": "arcane_echo",
       "cores": [
         "self_burial_spell",
@@ -139,8 +151,8 @@
       "location": "loc_1_boss",
       "mode": "combat",
       "requested_hours": 24.0,
-      "simulated_seconds": 28799.9999999661,
-      "wall_seconds": 17.591552,
+      "simulated_seconds": 28799.9999999696,
+      "wall_seconds": 18.139114,
       "weapon": "old_wood_bow_plus"
     },
     {
@@ -159,7 +171,7 @@
       "mode": "gathering",
       "requested_hours": 24.0,
       "simulated_seconds": 0,
-      "wall_seconds": 0.002023,
+      "wall_seconds": 0.002164,
       "weapon": "old_wood_bow_plus"
     }
   ]
