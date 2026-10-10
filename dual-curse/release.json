@@ -1,12 +1,12 @@
 {
-  "version": "0.5.0-dev.20",
+  "version": "0.5.0-dev.21",
   "date": "2026-10-10",
-  "build": "test-20261010-171341",
+  "build": "test-20261010-174801",
   "status": "development_preview",
-  "save_schema": 9,
+  "save_schema": 10,
   "published": true,
   "stable_0_5": false,
-  "source_scripts_verified": 192,
+  "source_scripts_verified": 193,
   "test_speed": {
     "menu": "测试速度 60倍",
     "default": false,
@@ -16,13 +16,14 @@
     "real_online_clock": true,
     "pacing_history_marked": true
   },
-  "content_changes": "none; dev.19 definitions retained",
+  "content_changes": "shared 50-tier ladder up to 48000, difficulty-weighted rewards, elite milestones and future elite probability effect consumer",
   "native_10_second_target_passed": false,
   "web_browser_gameplay": "not_verified",
   "mobile_device_verification": "not_completed",
   "remaining": [
-    "starter_bow_sustained_boss_balance",
+    "multi_seed_earned_route_balance",
     "earned_route_blueprint_material_timing",
+    "elite_terminal_time_and_probability_budget",
     "boss_behavior_and_random_drop_calibration",
     "unique_recipe_routes_and_permanent_growth_budgets",
     "offline_margin_and_platform_acceptance"
@@ -33,8 +34,8 @@
   },
   "files": {
     "windows/DualCurse.exe": {
-      "bytes": 143472904,
-      "sha256": "71be6a9978d603a2816b421c5ee6591af7b66ef2aecebd8d1606be4fdfd6c86b"
+      "bytes": 143479848,
+      "sha256": "741c78d11dce478c2cfe45bf9d33a45afedc3a77eb45d4663f4b7f83ce711c07"
     },
     "windows/FONT-LICENSE.txt": {
       "bytes": 4388,
@@ -70,15 +71,15 @@
     },
     "web/index.html": {
       "bytes": 5754,
-      "sha256": "850ad902cc8a8cc006e21f42f2c29ddae20f7d36bbf284f9497fdbb2d36683ee"
+      "sha256": "24f1c78c69f5c517f6ce841f7ef04ecabd7a7ad963d981aa714203ccb89bf6dc"
     },
     "web/index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "web/index.pck": {
-      "bytes": 46710524,
-      "sha256": "0012b598c21b90a7cd3941158011b7fab6064480eadc56fb45facc4abffda784"
+      "bytes": 46717464,
+      "sha256": "66cfa39a0e6149543da4e17b1cddba92833d86874e61bac15b0dd02010f4195e"
     },
     "web/index.png": {
       "bytes": 21443,
@@ -90,13 +91,12 @@
     }
   },
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
-  "previous_online_version": "0.5.0-dev.16",
+  "previous_online_version": "0.5.0-dev.20",
   "new_features_since_previous_online": [
-    "world_hubs_npc_quests_merchants",
-    "lifetime_unique_rune_crafting_with_mp_conservation",
-    "equipment_instance_upgrade_and_museum_protection",
-    "long_milestone_blueprints_and_stable_claim_identity",
-    "saved_live_test_speed_60x_switch"
+    "shared_50_tier_milestone_quantities",
+    "difficulty_weighted_collection_and_combat_rewards",
+    "elite_kill_milestones",
+    "elite_probability_effect_consumer_for_future_content"
   ],
   "native_high_load_sample": [
     {
@@ -115,7 +115,7 @@
       "mode": "combat",
       "requested_hours": 24.0,
       "simulated_seconds": 28799.9999999781,
-      "wall_seconds": 10.505472,
+      "wall_seconds": 13.238159,
       "weapon": "old_wood_bow_plus"
     },
     {
@@ -134,7 +134,7 @@
       "mode": "gathering",
       "requested_hours": 24.0,
       "simulated_seconds": 0,
-      "wall_seconds": 0.001133,
+      "wall_seconds": 0.001744,
       "weapon": "old_wood_bow_plus"
     }
   ]
