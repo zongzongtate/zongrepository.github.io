@@ -1,12 +1,12 @@
 {
-  "version": "0.5.0-dev.22",
+  "version": "0.5.0-dev.23",
   "date": "2026-10-10",
-  "build": "test-20261010-183537",
+  "build": "test-20261010-185657",
   "status": "development_preview",
-  "save_schema": 11,
+  "save_schema": 12,
   "published": true,
   "stable_0_5": false,
-  "source_scripts_verified": 194,
+  "source_scripts_verified": 195,
   "test_speed": {
     "menu": "测试速度 60倍",
     "default": false,
@@ -16,12 +16,15 @@
     "real_online_clock": true,
     "pacing_history_marked": true
   },
-  "content_changes": "every dev.21 milestone reward preserved plus generous attributes; paid historical claims receive additions once",
+  "content_changes": "per-species elite milestones below authored spawn-rate ratios; all dev.22 rewards preserved; aggregate retired",
   "milestone_rewards": {
-    "revision": 22,
-    "augmentation_only": true,
+    "revision": 23,
+    "species": 10,
+    "elite_tiers": 210,
     "rows_preserved": 1598,
-    "historical_topups": "one_time_versioned_ledger"
+    "max_elite_ratio": 0.00625,
+    "base_spawn_chance": 0.0075,
+    "aggregate": "retired_preserving_paid_history"
   },
   "earned_growth": {
     "samples": 12,
@@ -31,8 +34,8 @@
       47
     ],
     "first_clear_range_seconds": [
-      611,
-      826
+      601.0,
+      801.0
     ],
     "all_sustained_boss": true,
     "player_reading_time_included": false
@@ -54,8 +57,8 @@
   },
   "files": {
     "windows/DualCurse.exe": {
-      "bytes": 143483880,
-      "sha256": "c4832067284a69cb077b4e3954a1732051ed071364b929cc7b40b5243db8ae73"
+      "bytes": 143487840,
+      "sha256": "936230f21cae045daacb14c13f6dd99410f357b743e7b024c3112fc79b134a73"
     },
     "windows/FONT-LICENSE.txt": {
       "bytes": 4388,
@@ -91,15 +94,15 @@
     },
     "web/index.html": {
       "bytes": 5754,
-      "sha256": "b4bbf29ca1bf2f580f6aefc03f1254396929e36d5ef6bf50250b218c8d69c848"
+      "sha256": "15ed47df50176575ea1a094e64075fcaa761012722653279563c2c52cee3d9c4"
     },
     "web/index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "web/index.pck": {
-      "bytes": 46721496,
-      "sha256": "2c321420e8d3cb418e8476ec73558d9aae461dbefa3b3b055679379b9c5f1415"
+      "bytes": 46725460,
+      "sha256": "ea8fe157eda31fecf1b25b140ef11da24a66441d4c0809b2be7bffc286e4c6f5"
     },
     "web/index.png": {
       "bytes": 21443,
@@ -111,16 +114,17 @@
     }
   },
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
-  "previous_online_version": "0.5.0-dev.21",
+  "previous_online_version": "0.5.0-dev.22",
   "new_features_since_previous_online": [
-    "additive_generous_milestone_attributes",
-    "stronger_high_difficulty_growth_without_removing_teaching_rewards",
-    "one_time_historical_reward_augmentation_ledger"
+    "species_elite_milestones",
+    "elite_requirements_strictly_below_spawn_rate_ratios",
+    "all_monster_species_have_elite_encounters",
+    "retired_aggregate_preserves_historical_awards"
   ],
   "native_high_load_sample": [
     {
       "capped_hours": 8.0,
-      "clears": 13363,
+      "clears": 13618,
       "core": "arcane_echo",
       "cores": [
         "self_burial_spell",
@@ -133,8 +137,8 @@
       "location": "loc_1_boss",
       "mode": "combat",
       "requested_hours": 24.0,
-      "simulated_seconds": 28799.9999999719,
-      "wall_seconds": 17.220813,
+      "simulated_seconds": 28799.9999999685,
+      "wall_seconds": 17.221372,
       "weapon": "old_wood_bow_plus"
     },
     {
@@ -153,7 +157,7 @@
       "mode": "gathering",
       "requested_hours": 24.0,
       "simulated_seconds": 0,
-      "wall_seconds": 0.002023,
+      "wall_seconds": 0.001947,
       "weapon": "old_wood_bow_plus"
     }
   ]
