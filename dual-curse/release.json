@@ -1,12 +1,12 @@
 {
-  "version": "0.5.0-dev.21",
+  "version": "0.5.0-dev.22",
   "date": "2026-10-10",
-  "build": "test-20261010-174801",
+  "build": "test-20261010-183537",
   "status": "development_preview",
-  "save_schema": 10,
+  "save_schema": 11,
   "published": true,
   "stable_0_5": false,
-  "source_scripts_verified": 193,
+  "source_scripts_verified": 194,
   "test_speed": {
     "menu": "测试速度 60倍",
     "default": false,
@@ -16,12 +16,32 @@
     "real_online_clock": true,
     "pacing_history_marked": true
   },
-  "content_changes": "shared 50-tier ladder up to 48000, difficulty-weighted rewards, elite milestones and future elite probability effect consumer",
+  "content_changes": "every dev.21 milestone reward preserved plus generous attributes; paid historical claims receive additions once",
+  "milestone_rewards": {
+    "revision": 22,
+    "augmentation_only": true,
+    "rows_preserved": 1598,
+    "historical_topups": "one_time_versioned_ledger"
+  },
+  "earned_growth": {
+    "samples": 12,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "first_clear_range_seconds": [
+      611,
+      826
+    ],
+    "all_sustained_boss": true,
+    "player_reading_time_included": false
+  },
   "native_10_second_target_passed": false,
   "web_browser_gameplay": "not_verified",
   "mobile_device_verification": "not_completed",
   "remaining": [
-    "multi_seed_earned_route_balance",
+    "full_build_and_two_world_growth",
     "earned_route_blueprint_material_timing",
     "elite_terminal_time_and_probability_budget",
     "boss_behavior_and_random_drop_calibration",
@@ -34,8 +54,8 @@
   },
   "files": {
     "windows/DualCurse.exe": {
-      "bytes": 143479848,
-      "sha256": "741c78d11dce478c2cfe45bf9d33a45afedc3a77eb45d4663f4b7f83ce711c07"
+      "bytes": 143483880,
+      "sha256": "c4832067284a69cb077b4e3954a1732051ed071364b929cc7b40b5243db8ae73"
     },
     "windows/FONT-LICENSE.txt": {
       "bytes": 4388,
@@ -71,15 +91,15 @@
     },
     "web/index.html": {
       "bytes": 5754,
-      "sha256": "24f1c78c69f5c517f6ce841f7ef04ecabd7a7ad963d981aa714203ccb89bf6dc"
+      "sha256": "b4bbf29ca1bf2f580f6aefc03f1254396929e36d5ef6bf50250b218c8d69c848"
     },
     "web/index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "web/index.pck": {
-      "bytes": 46717464,
-      "sha256": "66cfa39a0e6149543da4e17b1cddba92833d86874e61bac15b0dd02010f4195e"
+      "bytes": 46721496,
+      "sha256": "2c321420e8d3cb418e8476ec73558d9aae461dbefa3b3b055679379b9c5f1415"
     },
     "web/index.png": {
       "bytes": 21443,
@@ -91,17 +111,16 @@
     }
   },
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
-  "previous_online_version": "0.5.0-dev.20",
+  "previous_online_version": "0.5.0-dev.21",
   "new_features_since_previous_online": [
-    "shared_50_tier_milestone_quantities",
-    "difficulty_weighted_collection_and_combat_rewards",
-    "elite_kill_milestones",
-    "elite_probability_effect_consumer_for_future_content"
+    "additive_generous_milestone_attributes",
+    "stronger_high_difficulty_growth_without_removing_teaching_rewards",
+    "one_time_historical_reward_augmentation_ledger"
   ],
   "native_high_load_sample": [
     {
       "capped_hours": 8.0,
-      "clears": 10467,
+      "clears": 13363,
       "core": "arcane_echo",
       "cores": [
         "self_burial_spell",
@@ -114,8 +133,8 @@
       "location": "loc_1_boss",
       "mode": "combat",
       "requested_hours": 24.0,
-      "simulated_seconds": 28799.9999999781,
-      "wall_seconds": 13.238159,
+      "simulated_seconds": 28799.9999999719,
+      "wall_seconds": 17.220813,
       "weapon": "old_wood_bow_plus"
     },
     {
@@ -134,7 +153,7 @@
       "mode": "gathering",
       "requested_hours": 24.0,
       "simulated_seconds": 0,
-      "wall_seconds": 0.001744,
+      "wall_seconds": 0.002023,
       "weapon": "old_wood_bow_plus"
     }
   ]
