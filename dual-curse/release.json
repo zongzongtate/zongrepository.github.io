@@ -1,7 +1,7 @@
 {
-  "version": "0.5.0-dev.29",
+  "version": "0.5.0-dev.30",
   "date": "2026-10-11",
-  "build": "test-20261011-003925",
+  "build": "test-20261011-011512",
   "status": "development_preview",
   "save_schema": 16,
   "random_packs": {
@@ -24,7 +24,7 @@
     "real_online_clock": true,
     "pacing_history_marked": true
   },
-  "content_changes": "inclusive random primary and mixed pack sizes; real member HP, kills and material rolls; persisted encounter snapshot; optional per-member HP growth",
+  "content_changes": "96px crafting icons; repeatable paid equipment crafting; one museum withdrawal action per form; concise gathering status and current interval; no derived gathering interval notices",
   "milestone_rewards": {
     "revision": 28,
     "active_rewards": 1248,
@@ -49,6 +49,18 @@
     "cumulative_percent_cap": null,
     "historical_clawback": false,
     "ledger_prefix": "dev28:"
+  },
+  "crafting_ui": {
+    "icon_logical_pixels": [
+      96,
+      96
+    ],
+    "equipment_repeatable": true,
+    "runes_lifetime_unique": true,
+    "museum_actions_per_form": 1,
+    "gathering_interval_always_visible": true,
+    "derived_gathering_interval_notices": false,
+    "evidence": "docs/crafting-museum-gathering-dev30.md"
   },
   "character_source_ui": {
     "category_initially_collapsed": true,
@@ -86,7 +98,7 @@
     "logical_pixel_units": true
   },
   "earned_growth": {
-    "evidence_version": "0.5.0-dev.29",
+    "evidence_version": "0.5.0-dev.30",
     "rerun_in_this_batch": true,
     "samples": 12,
     "seeds": [
@@ -120,8 +132,8 @@
   },
   "files": {
     "windows/DualCurse.exe": {
-      "bytes": 143524488,
-      "sha256": "96e3f54531e9ba2f2ed4152fffc9f4bc1343059a1770d90686aae5954b07ae11"
+      "bytes": 143523640,
+      "sha256": "ecf11efd2b9149aace3127a1cb55689508407fc918768d9ca26243875c050d69"
     },
     "windows/FONT-LICENSE.txt": {
       "bytes": 4388,
@@ -157,15 +169,15 @@
     },
     "web/index.html": {
       "bytes": 5754,
-      "sha256": "657b06fcc43b9a4d8fc10bb4f0f427a4ad7a0975fa12459d8f3c6e3575d8b4e3"
+      "sha256": "ac5fddf5b9c4bee32dbfa5008967f8dbf81e242401e8013551f6c8de1a57ff83"
     },
     "web/index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "web/index.pck": {
-      "bytes": 46762108,
-      "sha256": "816a104de0bdbee615398b508d84d3c2428426546a90fd215686bfacced12f21"
+      "bytes": 46761260,
+      "sha256": "adb93f7de129c7a6802600e4238427fc3eaa0418630d64a28761b87d9187383c"
     },
     "web/index.png": {
       "bytes": 21443,
@@ -177,12 +189,12 @@
     }
   },
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
-  "previous_online_version": "0.5.0-dev.28",
+  "previous_online_version": "0.5.0-dev.29",
   "new_features_since_previous_online": [
-    "random_primary_and_mixed_group_sizes",
-    "member_based_health_and_rewards",
-    "saved_group_snapshot",
-    "configurable_additional_group_health_growth"
+    "larger_crafting_icons",
+    "all_equipment_repeatable",
+    "single_museum_withdrawal_action",
+    "concise_gathering_status_without_interval_notifications"
   ],
   "native_high_load_sample": [
     {
@@ -201,7 +213,7 @@
       "mode": "combat",
       "requested_hours": 24.0,
       "simulated_seconds": 28799.9999999687,
-      "wall_seconds": 18.424105,
+      "wall_seconds": 18.621909,
       "weapon": "old_wood_bow_plus"
     },
     {
@@ -220,7 +232,7 @@
       "mode": "gathering",
       "requested_hours": 24.0,
       "simulated_seconds": 0,
-      "wall_seconds": 0.001715,
+      "wall_seconds": 0.001572,
       "weapon": "old_wood_bow_plus"
     }
   ]
