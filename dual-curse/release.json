@@ -1,7 +1,7 @@
 {
-  "version": "0.5.0-dev.33",
+  "version": "0.5.0-dev.34",
   "date": "2026-10-11",
-  "build": "test-20261011-023749",
+  "build": "test-20261011-025702",
   "status": "development_preview",
   "save_schema": 16,
   "random_packs": {
@@ -14,7 +14,7 @@
   },
   "published": true,
   "stable_0_5": false,
-  "source_scripts_verified": 206,
+  "source_scripts_verified": 208,
   "test_speed": {
     "menu": "测试速度 60倍",
     "default": false,
@@ -24,7 +24,7 @@
     "real_online_clock": true,
     "pacing_history_marked": true
   },
-  "content_changes": "horizontal wrapping NPC commission and merchant cards; shared SVG shadow portrait; 10 four-phase quest conversations; 3 merchant greetings; stable live-stock product cards; live simulation pauses during quest dialogue",
+  "content_changes": "stronger enemy health and approach budgets; returning soul resets accumulated control resistance; two-world attack immunity/dodge/lethal reflection and restricted elite pools",
   "milestone_rewards": {
     "revision": 28,
     "active_rewards": 1248,
@@ -86,7 +86,7 @@
     "fixed_and_percentage_units_separate": true,
     "increase_and_more_separate": true,
     "evidence": "docs/evidence/character-source-ui-dev27.json",
-    "regression_rerun_in_this_batch": false
+    "regression_rerun_in_this_batch": true
   },
   "milestone_ui": {
     "card": [
@@ -113,8 +113,8 @@
     "logical_pixel_units": true
   },
   "earned_growth": {
-    "evidence_version": "0.5.0-dev.30",
-    "rerun_in_this_batch": false,
+    "evidence_version": "0.5.0-dev.34",
+    "rerun_in_this_batch": true,
     "samples": 12,
     "seeds": [
       11,
@@ -122,8 +122,8 @@
       47
     ],
     "first_clear_range_seconds": [
-      631.0,
-      896.0
+      666.0,
+      951.0
     ],
     "all_sustained_boss": true,
     "strategy": "Earn all items and core points; defeat 40 wax priests before boss entry.",
@@ -189,10 +189,23 @@
     "content_rules_changed": false,
     "evidence": "docs/npc-cards-dialogue-dev33.md"
   },
+  "enemy_soul_loop": {
+    "revision": 34,
+    "first_three_dogs_revives": 2,
+    "soul_shock_clears_accumulated_resistance": true,
+    "native_resistance_retained": true,
+    "late_cooldown_comparison": "no self burial, 0% recovery reduction fails, 60% clears",
+    "affixes_outside_prologue_only": [
+      "warded",
+      "evasive",
+      "mirror"
+    ],
+    "evidence": "docs/enemy-soul-loop-dev34.md"
+  },
   "files": {
     "windows/DualCurse.exe": {
-      "bytes": 152591656,
-      "sha256": "207a2502359f779a761cd51ead6f9a01289103016ba70dc2521ced285eb9b998"
+      "bytes": 152597832,
+      "sha256": "32ff8176bd47ed980e0dae9403657d09a72470a5ab4d50d974c34839d1254214"
     },
     "windows/FONT-LICENSE.txt": {
       "bytes": 4388,
@@ -228,15 +241,15 @@
     },
     "web/index.html": {
       "bytes": 5754,
-      "sha256": "6f821ba7e7de777d0c8d6be3005e97fcb9a9af8de519647a608bf653d5123d7d"
+      "sha256": "1449c313350893d201b102e7a4271989928754d6fc7dc5d615d667144db74718"
     },
     "web/index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "web/index.pck": {
-      "bytes": 55829276,
-      "sha256": "2c251c599a61c2f2ed0a65d767381d5f40c4461397b6b2b015ffb91cfcbaaa1f"
+      "bytes": 55835452,
+      "sha256": "e819f2c46e4325becbd5c32bdd867636f4bd6f11a9751d39e42ae99bcdd42217"
     },
     "web/index.png": {
       "bytes": 21443,
@@ -248,18 +261,18 @@
     }
   },
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
-  "previous_online_version": "0.5.0-dev.32",
+  "previous_online_version": "0.5.0-dev.33",
   "new_features_since_previous_online": [
-    "horizontal_wrapping_npc_cards",
-    "shadow_portrait_fallback",
-    "quest_acceptance_and_completion_dialogue",
-    "merchant_product_cards_and_live_stock",
-    "dialogue_pauses_live_and_test_speed"
+    "stronger_enemy_budgets",
+    "returning_soul_resistance_reset",
+    "two_world_attack_immunity_dodge_lethal_reflection",
+    "later_elite_affix_pools",
+    "real_earned_growth_reverified"
   ],
   "native_high_load_sample": [
     {
       "capped_hours": 8.0,
-      "clears": 13829,
+      "clears": 10809,
       "core": "arcane_echo",
       "cores": [
         "self_burial_spell",
@@ -272,8 +285,8 @@
       "location": "loc_1_boss",
       "mode": "combat",
       "requested_hours": 24.0,
-      "simulated_seconds": 28799.9999999687,
-      "wall_seconds": 20.668264,
+      "simulated_seconds": 28799.999999973,
+      "wall_seconds": 16.103024,
       "weapon": "old_wood_bow_plus"
     },
     {
@@ -292,7 +305,7 @@
       "mode": "gathering",
       "requested_hours": 24.0,
       "simulated_seconds": 0,
-      "wall_seconds": 0.001594,
+      "wall_seconds": 0.00157,
       "weapon": "old_wood_bow_plus"
     }
   ]
