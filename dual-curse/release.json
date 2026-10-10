@@ -1,12 +1,12 @@
 {
-  "version": "0.5.0-dev.27",
-  "date": "2026-10-10",
-  "build": "test-20261010-221634",
+  "version": "0.5.0-dev.28",
+  "date": "2026-10-11",
+  "build": "test-20261010-235920",
   "status": "development_preview",
-  "save_schema": 14,
+  "save_schema": 15,
   "published": true,
   "stable_0_5": false,
-  "source_scripts_verified": 199,
+  "source_scripts_verified": 200,
   "test_speed": {
     "menu": "测试速度 60倍",
     "default": false,
@@ -16,26 +16,31 @@
     "real_online_clock": true,
     "pacing_history_marked": true
   },
-  "content_changes": "character stat categories, stable source totals and earned tiers progressively expand; hover shows category totals",
+  "content_changes": "35 material and normal-kill tiers, 15 elites per species; one-million material terminal; blueprints stay near previous early/midgame quantities",
   "milestone_rewards": {
-    "revision": 25,
-    "active_rewards": 1748,
+    "revision": 28,
+    "active_rewards": 1248,
     "historical_payment_definitions": 1808,
-    "retired_rows": 60,
-    "ordinary_tiers": 50,
+    "retired_rows": 560,
+    "material_tiers": 35,
+    "material_max": 1000000,
+    "ordinary_tiers": 35,
     "ordinary_max": 48000,
     "all_active_counts_multiple_of_ten": true,
-    "elite_tiers_per_species": 20,
+    "elite_tiers_per_species": 15,
     "elite_first": 10,
     "elite_max": 300,
     "ordinary_percent_start": 0.005,
     "percent_step": 0.005,
     "percent_cap_per_stat_payment": 0.05,
-    "ordinary_tiers_per_percent_step": 5,
+    "ordinary_tiers_per_percent_step": [
+      3,
+      4
+    ],
     "flat_step": 0.5,
     "cumulative_percent_cap": null,
     "historical_clawback": false,
-    "ledger_prefix": "dev25:"
+    "ledger_prefix": "dev28:"
   },
   "character_source_ui": {
     "category_initially_collapsed": true,
@@ -45,7 +50,8 @@
     "historical_unknown_kept_as_aggregate": true,
     "fixed_and_percentage_units_separate": true,
     "increase_and_more_separate": true,
-    "evidence": "docs/evidence/character-source-ui-dev27.json"
+    "evidence": "docs/evidence/character-source-ui-dev27.json",
+    "regression_rerun_in_this_batch": true
   },
   "milestone_ui": {
     "card": [
@@ -72,8 +78,8 @@
     "logical_pixel_units": true
   },
   "earned_growth": {
-    "evidence_version": "0.5.0-dev.25",
-    "rerun_in_this_batch": false,
+    "evidence_version": "0.5.0-dev.28",
+    "rerun_in_this_batch": true,
     "samples": 12,
     "seeds": [
       11,
@@ -81,8 +87,8 @@
       47
     ],
     "first_clear_range_seconds": [
-      751.0,
-      931.0
+      647.0,
+      889.0
     ],
     "all_sustained_boss": true,
     "strategy": "Earn all items and core points; defeat 40 wax priests before boss entry.",
@@ -106,8 +112,8 @@
   },
   "files": {
     "windows/DualCurse.exe": {
-      "bytes": 143509880,
-      "sha256": "dbee970c7be76cd8c98632dcb15d3bf42886875a32f52c30aae41df8f2fba043"
+      "bytes": 143518416,
+      "sha256": "0a07be660df364047dc312c31cf147f0084b6215e1f4713dda9006eb8657ee52"
     },
     "windows/FONT-LICENSE.txt": {
       "bytes": 4388,
@@ -143,15 +149,15 @@
     },
     "web/index.html": {
       "bytes": 5754,
-      "sha256": "7425727b6b19e1deade015538c59ff2b7eab1c24296619f56349fcaa260cf9b3"
+      "sha256": "25fe5d31a9cc49df0db84fa84f8b851630858697e5d8b147e683c9223c09bb16"
     },
     "web/index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "web/index.pck": {
-      "bytes": 46747500,
-      "sha256": "e913a509ef4439d5de0abc44be95f59ca42e577f0eb2c0eb5aadff8d73b8e50a"
+      "bytes": 46756032,
+      "sha256": "e0998e19a98ec48636319f64f6f41d37ea16b791a148d679fba0507846893822"
     },
     "web/index.png": {
       "bytes": 21443,
@@ -163,17 +169,17 @@
     }
   },
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
-  "previous_online_version": "0.5.0-dev.26",
+  "previous_online_version": "0.5.0-dev.27",
   "new_features_since_previous_online": [
-    "grouped_character_source_summaries",
-    "same_monster_and_material_source_totals",
-    "expandable_earned_tiers",
-    "lazy_source_detail_creation"
+    "sparse_35_material_35_kill_15_elite_tiers",
+    "million_material_terminal",
+    "early_midgame_blueprints_preserved",
+    "historical_payment_reconciliation"
   ],
   "native_high_load_sample": [
     {
       "capped_hours": 8.0,
-      "clears": 14271,
+      "clears": 13829,
       "core": "arcane_echo",
       "cores": [
         "self_burial_spell",
@@ -186,8 +192,8 @@
       "location": "loc_1_boss",
       "mode": "combat",
       "requested_hours": 24.0,
-      "simulated_seconds": 28799.9999999696,
-      "wall_seconds": 18.064756,
+      "simulated_seconds": 28799.9999999687,
+      "wall_seconds": 17.981124,
       "weapon": "old_wood_bow_plus"
     },
     {
@@ -206,7 +212,7 @@
       "mode": "gathering",
       "requested_hours": 24.0,
       "simulated_seconds": 0,
-      "wall_seconds": 0.00195,
+      "wall_seconds": 0.001599,
       "weapon": "old_wood_bow_plus"
     }
   ]
