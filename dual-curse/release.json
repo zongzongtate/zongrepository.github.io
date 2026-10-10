@@ -1,12 +1,20 @@
 {
-  "version": "0.5.0-dev.28",
+  "version": "0.5.0-dev.29",
   "date": "2026-10-11",
-  "build": "test-20261010-235920",
+  "build": "test-20261011-003925",
   "status": "development_preview",
-  "save_schema": 15,
+  "save_schema": 16,
+  "random_packs": {
+    "evidence": "docs/evidence/random-encounters-dev29.json",
+    "saved_members": true,
+    "retry_rerolls": false,
+    "load_consumes_rng": false,
+    "group_hp_bonus_default": 0.0,
+    "bosses_single": true
+  },
   "published": true,
   "stable_0_5": false,
-  "source_scripts_verified": 200,
+  "source_scripts_verified": 201,
   "test_speed": {
     "menu": "测试速度 60倍",
     "default": false,
@@ -16,7 +24,7 @@
     "real_online_clock": true,
     "pacing_history_marked": true
   },
-  "content_changes": "35 material and normal-kill tiers, 15 elites per species; one-million material terminal; blueprints stay near previous early/midgame quantities",
+  "content_changes": "inclusive random primary and mixed pack sizes; real member HP, kills and material rolls; persisted encounter snapshot; optional per-member HP growth",
   "milestone_rewards": {
     "revision": 28,
     "active_rewards": 1248,
@@ -78,7 +86,7 @@
     "logical_pixel_units": true
   },
   "earned_growth": {
-    "evidence_version": "0.5.0-dev.28",
+    "evidence_version": "0.5.0-dev.29",
     "rerun_in_this_batch": true,
     "samples": 12,
     "seeds": [
@@ -87,8 +95,8 @@
       47
     ],
     "first_clear_range_seconds": [
-      647.0,
-      889.0
+      631.0,
+      896.0
     ],
     "all_sustained_boss": true,
     "strategy": "Earn all items and core points; defeat 40 wax priests before boss entry.",
@@ -112,8 +120,8 @@
   },
   "files": {
     "windows/DualCurse.exe": {
-      "bytes": 143518416,
-      "sha256": "0a07be660df364047dc312c31cf147f0084b6215e1f4713dda9006eb8657ee52"
+      "bytes": 143524488,
+      "sha256": "96e3f54531e9ba2f2ed4152fffc9f4bc1343059a1770d90686aae5954b07ae11"
     },
     "windows/FONT-LICENSE.txt": {
       "bytes": 4388,
@@ -149,15 +157,15 @@
     },
     "web/index.html": {
       "bytes": 5754,
-      "sha256": "25fe5d31a9cc49df0db84fa84f8b851630858697e5d8b147e683c9223c09bb16"
+      "sha256": "657b06fcc43b9a4d8fc10bb4f0f427a4ad7a0975fa12459d8f3c6e3575d8b4e3"
     },
     "web/index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "web/index.pck": {
-      "bytes": 46756032,
-      "sha256": "e0998e19a98ec48636319f64f6f41d37ea16b791a148d679fba0507846893822"
+      "bytes": 46762108,
+      "sha256": "816a104de0bdbee615398b508d84d3c2428426546a90fd215686bfacced12f21"
     },
     "web/index.png": {
       "bytes": 21443,
@@ -169,12 +177,12 @@
     }
   },
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
-  "previous_online_version": "0.5.0-dev.27",
+  "previous_online_version": "0.5.0-dev.28",
   "new_features_since_previous_online": [
-    "sparse_35_material_35_kill_15_elite_tiers",
-    "million_material_terminal",
-    "early_midgame_blueprints_preserved",
-    "historical_payment_reconciliation"
+    "random_primary_and_mixed_group_sizes",
+    "member_based_health_and_rewards",
+    "saved_group_snapshot",
+    "configurable_additional_group_health_growth"
   ],
   "native_high_load_sample": [
     {
@@ -193,7 +201,7 @@
       "mode": "combat",
       "requested_hours": 24.0,
       "simulated_seconds": 28799.9999999687,
-      "wall_seconds": 17.981124,
+      "wall_seconds": 18.424105,
       "weapon": "old_wood_bow_plus"
     },
     {
@@ -212,7 +220,7 @@
       "mode": "gathering",
       "requested_hours": 24.0,
       "simulated_seconds": 0,
-      "wall_seconds": 0.001599,
+      "wall_seconds": 0.001715,
       "weapon": "old_wood_bow_plus"
     }
   ]
