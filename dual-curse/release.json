@@ -1,7 +1,7 @@
 {
-  "version": "0.5.0-dev.34",
+  "version": "0.5.0-dev.35",
   "date": "2026-10-11",
-  "build": "test-20261011-025702",
+  "build": "test-20261011-033152",
   "status": "development_preview",
   "save_schema": 16,
   "random_packs": {
@@ -14,7 +14,7 @@
   },
   "published": true,
   "stable_0_5": false,
-  "source_scripts_verified": 208,
+  "source_scripts_verified": 209,
   "test_speed": {
     "menu": "测试速度 60倍",
     "default": false,
@@ -24,7 +24,7 @@
     "real_online_clock": true,
     "pacing_history_marked": true
   },
-  "content_changes": "stronger enemy health and approach budgets; returning soul resets accumulated control resistance; two-world attack immunity/dodge/lethal reflection and restricted elite pools",
+  "content_changes": "bounded soul lamp haste and diminishing revival protection; elapsed-time gate for kill/spell reductions; conservative legacy checkpoint migration; consistent haste/source UI",
   "milestone_rewards": {
     "revision": 28,
     "active_rewards": 1248,
@@ -113,7 +113,7 @@
     "logical_pixel_units": true
   },
   "earned_growth": {
-    "evidence_version": "0.5.0-dev.34",
+    "evidence_version": "0.5.0-dev.35",
     "rerun_in_this_batch": true,
     "samples": 12,
     "seeds": [
@@ -194,7 +194,6 @@
     "first_three_dogs_revives": 2,
     "soul_shock_clears_accumulated_resistance": true,
     "native_resistance_retained": true,
-    "late_cooldown_comparison": "no self burial, 0% recovery reduction fails, 60% clears",
     "affixes_outside_prologue_only": [
       "warded",
       "evasive",
@@ -202,10 +201,22 @@
     ],
     "evidence": "docs/enemy-soul-loop-dev34.md"
   },
+  "soul_lamp_haste": {
+    "revision": 35,
+    "base_seconds": 6.5,
+    "minimum_seconds": 4.001,
+    "formula": "max(4.001,4+2.5/max(0.1,1+haste/100))",
+    "legacy_fields_retained": true,
+    "kills_and_spells_cannot_bypass_minimum": true,
+    "base_protection_seconds": 0.8,
+    "protection_limit_seconds": 2.4,
+    "protection_strictly_below_cd_ratio": 0.8,
+    "evidence": "docs/soul-lamp-haste-dev35.md"
+  },
   "files": {
     "windows/DualCurse.exe": {
-      "bytes": 152597832,
-      "sha256": "32ff8176bd47ed980e0dae9403657d09a72470a5ab4d50d974c34839d1254214"
+      "bytes": 152601384,
+      "sha256": "338dab1a395e67b1a39ed08d2045004991de18277a093aebfcbd26562c1e00a4"
     },
     "windows/FONT-LICENSE.txt": {
       "bytes": 4388,
@@ -241,15 +252,15 @@
     },
     "web/index.html": {
       "bytes": 5754,
-      "sha256": "1449c313350893d201b102e7a4271989928754d6fc7dc5d615d667144db74718"
+      "sha256": "8f69f89d4219fc229edfcb0c9c30745c4d4809d0dc45d07a5f1bcba8e927f338"
     },
     "web/index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "web/index.pck": {
-      "bytes": 55835452,
-      "sha256": "e819f2c46e4325becbd5c32bdd867636f4bd6f11a9751d39e42ae99bcdd42217"
+      "bytes": 55839000,
+      "sha256": "72f9febaf763540fd2d27d8677957e738cdfae7575747081b33f4569a438ef2d"
     },
     "web/index.png": {
       "bytes": 21443,
@@ -261,13 +272,14 @@
     }
   },
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
-  "previous_online_version": "0.5.0-dev.33",
+  "previous_online_version": "0.5.0-dev.34",
   "new_features_since_previous_online": [
-    "stronger_enemy_budgets",
-    "returning_soul_resistance_reset",
-    "two_world_attack_immunity_dodge_lethal_reflection",
-    "later_elite_affix_pools",
-    "real_earned_growth_reverified"
+    "bounded_soul_lamp_haste",
+    "diminishing_revival_protection",
+    "minimum_elapsed_recovery_gate",
+    "legacy_checkpoint_migration",
+    "consistent_haste_ui",
+    "earned_growth_rerun"
   ],
   "native_high_load_sample": [
     {
@@ -285,8 +297,8 @@
       "location": "loc_1_boss",
       "mode": "combat",
       "requested_hours": 24.0,
-      "simulated_seconds": 28799.999999973,
-      "wall_seconds": 16.103024,
+      "simulated_seconds": 28799.9999999723,
+      "wall_seconds": 16.183268,
       "weapon": "old_wood_bow_plus"
     },
     {
@@ -305,7 +317,7 @@
       "mode": "gathering",
       "requested_hours": 24.0,
       "simulated_seconds": 0,
-      "wall_seconds": 0.00157,
+      "wall_seconds": 0.001592,
       "weapon": "old_wood_bow_plus"
     }
   ]
