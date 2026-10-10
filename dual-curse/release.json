@@ -1,153 +1,127 @@
 {
-  "version": "0.5.0-dev.15",
-  "build": "test-20261004-002352",
-  "date": "2026-10-04",
-  "art_batch": 5,
-  "new_art_assets": 0,
-  "registered_art_assets": 74,
-  "weapon_pools": {
-    "death": [
-      "martial"
-    ],
-    "heal": [
-      "soul_lamp",
-      "magic_book"
-    ]
-  },
-  "coverage": {
-    "equipment": [
-      39,
-      39
-    ],
-    "materials": [
-      20,
-      20
-    ],
-    "monsters": [
-      10,
-      10
-    ],
-    "runes": [
-      20,
-      20
-    ]
-  },
-  "files": {
-    "FONT-LICENSE.txt": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
-    "GODOT-COPYRIGHT.txt": "2039020f520ebd55592070ede2ef38dfbc28a6550140008da004143872789e5d",
-    "GODOT-LICENSE.txt": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
-    "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
-    "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-    "index.html": "32ce5f49505da43c8d8bd8cb178b63cbf20d9f3eb19dc604814fc0972f1fb108",
-    "index.js": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f",
-    "index.pck": "40ca5aa4f4d8e574f2d47aa70ef3a78cf0f74d2b3c61f9b1a0e97287efe5ab20",
-    "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
-    "index.wasm": "1cee4c470d1fea06f7f3fbd22a563ffd0f1a55b54596b33cb9b695021ae476b0"
-  },
-  "offline_cap_hours": 8,
-  "offline_progress": "elapsed_seconds_and_estimated_remaining",
-  "offline_settlement": "event_bounded_replay_with_invalidated_effect_cache",
-  "world_picker": "separate_illustrated_worlds",
-  "equipment_ui": "paperdoll_left_replacement_grid_and_inline_comparison_right_portrait_stacked",
-  "world_backgrounds": 3,
-  "rune_mp_by_rarity": [
-    5,
-    10,
-    15,
-    20,
-    25,
-    30,
-    35
-  ],
-  "awakening_stories": 3,
-  "inspection": "bounded_cards_with_pair_stat_changes",
-  "offline_report": "loot_combat_milestone_tabs",
-  "star_chart": "shared_connected_graph",
-  "star_nodes": 44,
-  "star_mechanisms": 8,
-  "multiple_mechanisms": true,
-  "offline_native_multi_core_seconds": 13.30625,
+  "version": "0.5.0-dev.16",
+  "date": "2026-10-10",
+  "build": "test-20261010-102654",
+  "status": "development_preview",
   "save_schema": 6,
-  "stat_wording": "semantic_colors_inc_dec_more_less",
-  "attack_speed": "diminishing_returns_asymptote_15x",
-  "attack_panel": "character_only_without_target_modifiers",
-  "gathering_scene_props": 9,
-  "gathering_loot_origin": "scene_prop",
-  "offline_native_multi_core_benchmark_version": "0.5.0-dev.7",
-  "attack_clock": "cooldown_aligned_all_speed_ranges",
-  "melee_gap_closing_multiplier": 2,
-  "melee_in_range_speed": "unchanged",
-  "enemy_health_bar": "hp_and_current_knockback_resistance",
-  "damage_feedback": "settled_damage_bounded_coalescing_no_offline_animation",
-  "offline_native_multi_core_benchmark_mode": "Windows OpenGL compatibility, local machine, five cores, +500 attack, prologue boss",
-  "character_stats": "panel_damage_and_combined_factors_with_two_column_grouped_sources",
-  "preview_state": "pure_candidate_projection",
-  "entry_modules": [
-    "combat_execution",
-    "combat_session",
-    "offline_session",
-    "offline_combat_plan",
-    "offline_stepper",
-    "effect_cache",
-    "player_session",
-    "page_coordinator",
-    "character_stats",
-    "route_projection",
-    "failure_page",
-    "log_presenter"
+  "source_scripts_verified": 181,
+  "new_features": [
+    "portable_text_save_export_import",
+    "pre_import_backup_restore",
+    "bounded_authored_awakening_progress",
+    "centered_responsive_offline_settlement_overlay",
+    "centered_responsive_offline_settlement_overlay"
   ],
-  "offline_slice_ms": 150,
-  "offline_quiet_path": "event_bounded_no_event_slices_only",
-  "channel": "development-preview",
-  "offline_performance_target_seconds": 10,
-  "offline_performance_target_met": false,
-  "offline_web_mobile_performance_verified": false,
-  "known_open_items": [
-    "8h high-load settlement exceeds 10s",
-    "Web/mobile performance and save persistence acceptance",
-    "growth and reward balance; one bow build fails sustained idle after first clear",
-    "Reported star-chart garbled text not reproduced locally; browser verification unavailable"
+  "native_high_load_sample": [
+    {
+      "capped_hours": 8.0,
+      "clears": 10730,
+      "core": "arcane_echo",
+      "cores": [
+        "self_burial_spell",
+        "burial_fire",
+        "soul_overload",
+        "phantom_chase",
+        "arcane_echo"
+      ],
+      "failed": false,
+      "location": "loc_1_boss",
+      "mode": "combat",
+      "requested_hours": 24.0,
+      "simulated_seconds": 28799.9999999721,
+      "wall_seconds": 9.736913,
+      "weapon": "old_wood_bow_plus"
+    },
+    {
+      "capped_hours": 8.0,
+      "clears": 0,
+      "core": "arcane_echo",
+      "cores": [
+        "self_burial_spell",
+        "burial_fire",
+        "soul_overload",
+        "phantom_chase",
+        "arcane_echo"
+      ],
+      "failed": false,
+      "location": "loc_1_boss",
+      "mode": "gathering",
+      "requested_hours": 24.0,
+      "simulated_seconds": 0,
+      "wall_seconds": 0.001013,
+      "weapon": "old_wood_bow_plus"
+    }
   ],
-  "source_scripts_verified": 178,
-  "tooltip_font": "explicit_theme_for_detached_popups",
-  "star_font_verification": "all_44_node_names_and_generated_descriptions_in_native_export",
-  "web_pack_cache": "sha256_query_key_original_vfs_path",
-  "main_lines": 2345,
-  "drop_rate_wording": "percent_sign_without_changing_additive_probability",
-  "style_mp_formula": "unit_aware_flat_and_percentage_regular_effects",
-  "style_120_mp_examples": {
-    "flow": {
-      "per_mp": "0.1%",
-      "regular": "12%"
+  "web_live_verification": "see_build_online_verification_json_for_served_integrity_result",
+  "mobile_device_verification": "not_completed",
+  "stable_0_5": false,
+  "remaining": [
+    "repeatable_offline_performance_margin_and_web_mobile_10_second_acceptance",
+    "20_minute_prologue_including_player_operations_and_sustained_farming",
+    "cross_world_growth_and_reward_budgets",
+    "browser_refresh_interruption_and_real_mobile_save_persistence",
+    "rebuildable_source_checkpoint"
+  ],
+  "files": {
+    "windows/DualCurse.exe": {
+      "bytes": 143413336,
+      "sha256": "02484eccdd5de8872cdba7854880bb01da4ac1fc03532c982dce39a84dff5d17"
     },
-    "ember": {
-      "per_mp": "0.2%",
-      "regular": "24%"
+    "windows/FONT-LICENSE.txt": {
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
     },
-    "force": {
-      "per_mp": "0.1",
-      "regular": "12 flat attack"
+    "windows/GODOT-COPYRIGHT.txt": {
+      "bytes": 97253,
+      "sha256": "2039020f520ebd55592070ede2ef38dfbc28a6550140008da004143872789e5d"
     },
-    "treasure": {
-      "regular": "12%",
-      "special": "10%",
-      "total": "22%"
+    "windows/GODOT-LICENSE.txt": {
+      "bytes": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
+    },
+    "web/FONT-LICENSE.txt": {
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    "web/GODOT-COPYRIGHT.txt": {
+      "bytes": 97253,
+      "sha256": "2039020f520ebd55592070ede2ef38dfbc28a6550140008da004143872789e5d"
+    },
+    "web/GODOT-LICENSE.txt": {
+      "bytes": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
+    },
+    "web/index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "web/index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "web/index.html": {
+      "bytes": 5754,
+      "sha256": "d78798fa1e22446db8b05a8d2b18aa1a9d0b3db3e834f015f39c5188c51303da"
+    },
+    "web/index.js": {
+      "bytes": 305185,
+      "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
+    },
+    "web/index.pck": {
+      "bytes": 46650956,
+      "sha256": "1b54e8ac63e97117b6a3c8b6d5713efa3dc3731d1e722d37963aa6ab8d3d83f1"
+    },
+    "web/index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    "web/index.wasm": {
+      "bytes": 38057390,
+      "sha256": "1cee4c470d1fea06f7f3fbd22a563ffd0f1a55b54596b33cb9b695021ae476b0"
     }
   },
-  "milestone_sources": "category_subject_threshold_with_verified_attribution",
-  "milestone_art": "existing_material_monster_and_four_behavior_icons; rain dog shares gate dog art",
-  "self_burial_refresh": "runtime_only_no_hidden_page_rebuild",
-  "mechanism_notices": "bounded_6_deduplicated_cosmetic_layer",
-  "enemy_information": "explicit_button_snapshot_map_elite_probability_actual_material_and_conditional_elite_drops",
-  "page_lifecycle": "visible_only_refresh_fresh_on_open",
-  "item_texture_imports": {
-    "count": 59,
-    "size_limit": 384,
-    "mipmaps": true
-  },
-  "knockback_tuning": {
-    "resist_per_stack": 0.075,
-    "resist_cap": 0.8,
-    "repulsion_blade": 16.2
-  }
+  "native_high_load_measurement_build": "test-20261010-101605",
+  "offline_progress_ui": "centered_bounded_card_with_full_screen_scrim; verified_live_settlement_desktop_portrait_and_rotation",
+  "browser_gameplay_verification": "not_completed",
+  "publication_url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/"
 }
