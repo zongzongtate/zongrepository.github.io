@@ -1,7 +1,7 @@
 {
-  "version": "0.5.0-dev.32",
+  "version": "0.5.0-dev.33",
   "date": "2026-10-11",
-  "build": "test-20261011-020650",
+  "build": "test-20261011-023749",
   "status": "development_preview",
   "save_schema": 16,
   "random_packs": {
@@ -14,7 +14,7 @@
   },
   "published": true,
   "stable_0_5": false,
-  "source_scripts_verified": 202,
+  "source_scripts_verified": 206,
   "test_speed": {
     "menu": "测试速度 60倍",
     "default": false,
@@ -24,7 +24,7 @@
     "real_online_clock": true,
     "pacing_history_marked": true
   },
-  "content_changes": "three dedicated coherent hub paintings; illustrated hub header; selected world/tabs; shared construction/commission/shop cards; narrow-layout facility detail scrolling",
+  "content_changes": "horizontal wrapping NPC commission and merchant cards; shared SVG shadow portrait; 10 four-phase quest conversations; 3 merchant greetings; stable live-stock product cards; live simulation pauses during quest dialogue",
   "milestone_rewards": {
     "revision": 28,
     "active_rewards": 1248,
@@ -168,10 +168,31 @@
     "evidence": "docs/hub-art-ui-dev32.md",
     "prompt_manifest": "art/production/hubs-v1/manifest.json"
   },
+  "npc_cards_dialogue": {
+    "card_base_width": 284,
+    "gap": 12,
+    "quest_card_height": 454,
+    "merchant_card_height": 372,
+    "scene_height": [
+      144,
+      128
+    ],
+    "horizontal_and_wrap": true,
+    "portrait_fallback": "art/ui/npcs/shadow-v1.svg",
+    "authored_quests": 10,
+    "lines_per_quest": 4,
+    "merchant_greetings": 3,
+    "accept_or_turn_in_on_confirm_only": true,
+    "response_does_not_resubmit": true,
+    "live_stock_preserves_nodes": true,
+    "reading_pauses_live_and_60x": true,
+    "content_rules_changed": false,
+    "evidence": "docs/npc-cards-dialogue-dev33.md"
+  },
   "files": {
     "windows/DualCurse.exe": {
-      "bytes": 152570912,
-      "sha256": "b7e9819bf898ab5a4b64ba2f28b73decba1239c217e85ec8d55d001a4c78f419"
+      "bytes": 152591656,
+      "sha256": "207a2502359f779a761cd51ead6f9a01289103016ba70dc2521ced285eb9b998"
     },
     "windows/FONT-LICENSE.txt": {
       "bytes": 4388,
@@ -207,15 +228,15 @@
     },
     "web/index.html": {
       "bytes": 5754,
-      "sha256": "862f956963aac6f217527730ced3dbd88908b033ea78e87a942b199c2871dc63"
+      "sha256": "6f821ba7e7de777d0c8d6be3005e97fcb9a9af8de519647a608bf653d5123d7d"
     },
     "web/index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "web/index.pck": {
-      "bytes": 55808532,
-      "sha256": "7e264a51751127f18587a872a9168b6f463bd16e7cc5ceb05383e50a6e860abd"
+      "bytes": 55829276,
+      "sha256": "2c251c599a61c2f2ed0a65d767381d5f40c4461397b6b2b015ffb91cfcbaaa1f"
     },
     "web/index.png": {
       "bytes": 21443,
@@ -227,12 +248,13 @@
     }
   },
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
-  "previous_online_version": "0.5.0-dev.31",
+  "previous_online_version": "0.5.0-dev.32",
   "new_features_since_previous_online": [
-    "three_dedicated_hub_paintings",
-    "coherent_hub_header_and_selected_tabs",
-    "shared_facility_commission_shop_cards",
-    "mobile_room_detail_scrolling"
+    "horizontal_wrapping_npc_cards",
+    "shadow_portrait_fallback",
+    "quest_acceptance_and_completion_dialogue",
+    "merchant_product_cards_and_live_stock",
+    "dialogue_pauses_live_and_test_speed"
   ],
   "native_high_load_sample": [
     {
@@ -251,7 +273,7 @@
       "mode": "combat",
       "requested_hours": 24.0,
       "simulated_seconds": 28799.9999999687,
-      "wall_seconds": 18.45338,
+      "wall_seconds": 20.668264,
       "weapon": "old_wood_bow_plus"
     },
     {
@@ -270,7 +292,7 @@
       "mode": "gathering",
       "requested_hours": 24.0,
       "simulated_seconds": 0,
-      "wall_seconds": 0.001515,
+      "wall_seconds": 0.001594,
       "weapon": "old_wood_bow_plus"
     }
   ]
