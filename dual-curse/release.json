@@ -1,7 +1,7 @@
 {
-  "version": "0.5.0-dev.31",
+  "version": "0.5.0-dev.32",
   "date": "2026-10-11",
-  "build": "test-20261011-013709",
+  "build": "test-20261011-020650",
   "status": "development_preview",
   "save_schema": 16,
   "random_packs": {
@@ -14,7 +14,7 @@
   },
   "published": true,
   "stable_0_5": false,
-  "source_scripts_verified": 201,
+  "source_scripts_verified": 202,
   "test_speed": {
     "menu": "测试速度 60倍",
     "default": false,
@@ -24,7 +24,7 @@
     "real_online_clock": true,
     "pacing_history_marked": true
   },
-  "content_changes": "illustrated 116px world entry; individual world accent colors and selected marker; distinct compact destination and locked states; mobile world launcher and 300px drawer",
+  "content_changes": "three dedicated coherent hub paintings; illustrated hub header; selected world/tabs; shared construction/commission/shop cards; narrow-layout facility detail scrolling",
   "milestone_rewards": {
     "revision": 28,
     "active_rewards": 1248,
@@ -145,10 +145,33 @@
     "planned_after": "0.7 completed",
     "player_feedback": "large_changes_in_versioned_batches"
   },
+  "hub_art_ui": {
+    "paintings": 3,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "hero_height": [
+      206,
+      176
+    ],
+    "selector_height": 48,
+    "tab_height": 48,
+    "title_font": 28,
+    "card_title_font": 22,
+    "world_colors": [
+      "amber",
+      "green",
+      "blue"
+    ],
+    "gameplay_changed": false,
+    "evidence": "docs/hub-art-ui-dev32.md",
+    "prompt_manifest": "art/production/hubs-v1/manifest.json"
+  },
   "files": {
     "windows/DualCurse.exe": {
-      "bytes": 143526712,
-      "sha256": "3dc5ff9d9a68823f441c79d3204190bc549af4f7e22f654ac6a62fcea9cb206e"
+      "bytes": 152570912,
+      "sha256": "b7e9819bf898ab5a4b64ba2f28b73decba1239c217e85ec8d55d001a4c78f419"
     },
     "windows/FONT-LICENSE.txt": {
       "bytes": 4388,
@@ -184,15 +207,15 @@
     },
     "web/index.html": {
       "bytes": 5754,
-      "sha256": "7ab03d5014f72c7e1ddd313cb29d2586787bec940478a46e57c4244c17f21faa"
+      "sha256": "862f956963aac6f217527730ced3dbd88908b033ea78e87a942b199c2871dc63"
     },
     "web/index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "web/index.pck": {
-      "bytes": 46764332,
-      "sha256": "cdcf41b6177d4149a5e0baff3f7c283264d6c53e9c7a795b9bcb4fc131923d7b"
+      "bytes": 55808532,
+      "sha256": "7e264a51751127f18587a872a9168b6f463bd16e7cc5ceb05383e50a6e860abd"
     },
     "web/index.png": {
       "bytes": 21443,
@@ -204,12 +227,12 @@
     }
   },
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
-  "previous_online_version": "0.5.0-dev.30",
+  "previous_online_version": "0.5.0-dev.31",
   "new_features_since_previous_online": [
-    "prominent_illustrated_world_entry",
-    "world_accent_colors_and_current_browsing_marker",
-    "distinct_destination_and_locked_styles",
-    "mobile_world_launcher_and_expanded_drawer"
+    "three_dedicated_hub_paintings",
+    "coherent_hub_header_and_selected_tabs",
+    "shared_facility_commission_shop_cards",
+    "mobile_room_detail_scrolling"
   ],
   "native_high_load_sample": [
     {
@@ -228,7 +251,7 @@
       "mode": "combat",
       "requested_hours": 24.0,
       "simulated_seconds": 28799.9999999687,
-      "wall_seconds": 18.356942,
+      "wall_seconds": 18.45338,
       "weapon": "old_wood_bow_plus"
     },
     {
@@ -247,7 +270,7 @@
       "mode": "gathering",
       "requested_hours": 24.0,
       "simulated_seconds": 0,
-      "wall_seconds": 0.00181,
+      "wall_seconds": 0.001515,
       "weapon": "old_wood_bow_plus"
     }
   ]
