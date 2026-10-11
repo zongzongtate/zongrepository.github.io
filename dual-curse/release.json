@@ -1,97 +1,160 @@
 {
-  "version": "0.5.0-dev.40",
-  "date": "2026-10-11",
-  "build": "test-20261011-223928",
+  "version": "0.5.0-dev.41",
+  "date": "2026-10-12",
+  "build": "test-20261011-233420",
   "status": "development_preview",
   "stable_0_5": false,
-  "save_schema": 17,
-  "incompatible_save_policy": "reset_local_save_reject_old_import",
   "published": true,
-  "previous_online_version": "0.5.0-dev.36",
+  "previous_online_version": "0.5.0-dev.40",
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
+  "save_schema": 17,
+  "star_graph_version": 2,
+  "compatible_save_policy": "preserve_connected_stars_refund_disconnected_allocations",
+  "incompatible_save_policy": "reset_local_save_reject_old_import",
+  "star_nodes": 68,
+  "star_notables": 6,
+  "star_mechanisms": 8,
+  "star_full_allocation_cost": 76,
+  "legal_rune_max_star_points": 50,
   "changes_since_previous_online": [
-    "equipment compare and awakening tabs",
-    "clear probability wording and five-second reward notices",
-    "split prologue unlocks at 10/30/60 kills",
-    "one numerical attribute per non-elite tier without compensation",
-    "calibrated enemy health and fresh three-lamp self-burial rule"
+    "irregular star clusters and alternate connections",
+    "24 additional single-attribute nodes including six notables",
+    "search and node focus",
+    "read-only cheapest route and remaining point cost",
+    "viewport-fit overview and offscreen-label culling"
   ],
-  "milestone_rewards": {
-    "non_elite_numeric_attributes_per_tier": 1,
-    "non_elite_tiers": 1098,
-    "ordinary_tiers_total": 350,
-    "ordinary_flat_attack_total": 260,
-    "all_milestone_flat_attack_total": 666,
-    "all_permanent_flat_attack_total": 670,
-    "non_elite_percent_cap": 0.025,
-    "elite_rewards_unchanged": true
-  },
-  "combat_health": {
-    "loc_1_1": 80,
-    "loc_1_2": 85,
-    "loc_1_3": 140,
-    "loc_1_4": 350,
-    "curse_moth": 100,
-    "loc_1_boss": 1200,
-    "mountain_low": 600,
-    "city_low": 600,
-    "mountain_high": 2200,
-    "city_high": 2200
-  },
-  "fresh_default_self_burial_min_lamps": 3,
-  "explicit_player_rules_preserved": true,
-  "source_scripts_verified": 214,
+  "known_issues": [
+    "generic monster material drop bonuses omitted from actual consumer",
+    "treasure style bonus omitted from material ETA projection",
+    "fixed high-load offline benchmark above ten-second target",
+    "complete long-build and browser or real-device acceptance incomplete"
+  ],
   "verification": {
-    "version": "0.5.0-dev.40",
-    "full_business_and_ui": "passed",
-    "godot_checks": 106,
-    "logs": {
-      "builds\\verify-dev40-final.log": {
-        "bytes": 12764,
-        "sha256": "2d7c7cc79f6c350678e8c6e81591c85d07c958bd0c3fb54a140774b2003bf6e0"
-      },
-      "builds\\verify-dev40-ui-resume.log": {
-        "bytes": 184,
-        "sha256": "dca1257f806cbb239e90a209f38dec12fa114708f985ec2a18fc8efdb105bf7b"
-      },
-      "builds\\verify-dev40-ui-resume2.log": {
-        "bytes": 18394,
-        "sha256": "692ad4d65789318a874ce4a57e40107af6a018c4881429308ebf2b46597c09d2"
-      }
-    },
+    "version": "0.5.0-dev.41",
+    "build": "test-20261011-233420",
+    "save_schema": 17,
+    "graph_version": 2,
+    "stable_0_5": false,
+    "nodes": 68,
+    "small_nodes": 54,
+    "notables": 6,
+    "mechanisms": 8,
+    "full_allocation_cost": 76,
+    "legal_rune_max_points": 50,
+    "all_business_and_ui_checks": 106,
+    "source_scripts_verified": 214,
     "segmented": true,
-    "old_health_fixture_failures_corrected": 2,
-    "earned_prologue_samples": 12,
-    "earned_two_world_samples": 24,
-    "initial_two_world_passes": 22,
-    "cannon_seed29_censer_retry_passes": 2,
-    "original_failures_preserved": true,
-    "player_choices": [
-      "bow flow combat style",
-      "100 wax-priest preparation",
-      "affordable armor",
-      "cannon four-lamp frontier reserve",
-      "close melee attack in frontier",
-      "earned memory censer for cannon seed29"
+    "original_failed_fixture_preserved": true,
+    "old_star_route_fixture_corrected": true,
+    "prologue_samples": 12,
+    "earned_cluster_frontier_samples": 8,
+    "frontier_seeds": [
+      11
     ],
+    "all_frontier_cluster_goals_allocated": true,
+    "injected_growth_resources": false,
+    "real_mobile_device_verified": false,
+    "browser_gameplay_verified": false,
+    "long_all_builds_verified": false,
+    "offline_performance_rerun": true,
     "native_export_probe": {
       "art_sources": 7,
       "failures": [],
       "monsters": 9,
       "ordinary_live_tiers": 350,
       "user_path": "C:/Users/Administrator/AppData/Roaming/DualCurse-Test",
-      "version": "0.5.0-dev.40"
+      "version": "0.5.0-dev.41"
     },
-    "source_scripts_verified": 214,
-    "content_digest": "fc0c486ebabc8466689f28993f9c0195b36d04f818fbb9e755c543c27043c40c",
-    "browser_gameplay_verified": false,
-    "real_mobile_device_verified": false,
-    "offline_performance_rerun": false,
-    "long_all_builds_verified": false,
-    "bow_long_first_branch": {
-      "test_errors": 0,
-      "reference": "docs\\evidence\\combat-budget-dev40-bow-long.json"
+    "content_digest": "623c31b663a890307df05a4ff020c15a2f3a6970d6910207cb9d396776807e2a",
+    "content_guard_reference": "docs/evidence/star-clusters-dev41-content-guard.json",
+    "verification_log": {
+      "sha256": "cd4a25e61e0b87ec86050c289606321c31fc4c28d59af8f18bbf041ecb251063",
+      "bytes": 23870
+    },
+    "verification_resume_log": {
+      "sha256": "68bd7746d7cf4b6828b6eeea6498f3a80150e7417eacb0707110a7207579d8d2",
+      "bytes": 7267
+    },
+    "player_choices": [
+      "flow bow combat style",
+      "100 wax-priest preparation",
+      "affordable armor",
+      "four-lamp cannon frontier reserve",
+      "close melee frontier attacks",
+      "earned cannon memory censer",
+      "primary specialization after survival supports"
+    ],
+    "offline_benchmark": {
+      "combat": {
+        "capped_hours": 8.0,
+        "clears": 14322,
+        "core": "arcane_echo",
+        "cores": [
+          "self_burial_spell",
+          "burial_fire",
+          "soul_overload",
+          "phantom_chase",
+          "arcane_echo"
+        ],
+        "failed": false,
+        "location": "loc_1_boss",
+        "mode": "combat",
+        "requested_hours": 24.0,
+        "simulated_seconds": 28799.9999999691,
+        "wall_seconds": 18.827292,
+        "weapon": "old_wood_bow_plus"
+      },
+      "synthetic_fixed_build": true,
+      "target_seconds": 10,
+      "target_met": false
+    },
+    "readiness_audit": {
+      "data_validation_errors": [],
+      "findings": [
+        {
+          "actual_chance_with_node": 0.38,
+          "baseline_chance": 0.38,
+          "confirmed": true,
+          "expected_chance_with_node": 0.39,
+          "id": "material_drop_source_gap",
+          "reported_node_bonus": 0.01
+        },
+        {
+          "actual_drop_chance": 0.49,
+          "confirmed": true,
+          "eta_overestimate_ratio": 0.289473684210526,
+          "expected_material_per_cycle": 1.47,
+          "held_rune": "first_light_rune",
+          "id": "treasure_eta_gap",
+          "projected_material_per_cycle": 1.14,
+          "style": "treasure"
+        },
+        {
+          "completed_stage_action": "open_page",
+          "completed_stage_target": "debug_list",
+          "expedition_goal_count": 2,
+          "goal_ids": [
+            "first_gate",
+            "first_weapon",
+            "toy_wall",
+            "first_rune",
+            "first_star",
+            "boss",
+            "first_gather",
+            "first_tool",
+            "iron_line",
+            "first_facility",
+            "three_facilities",
+            "achievements"
+          ],
+          "id": "post_prologue_guidance_scope",
+          "note": "Existing expedition boss checklist is separate; this observation does not mean there are no two-world goals."
+        }
+      ],
+      "production_changes": false,
+      "scope": "isolated synthetic mechanism fixtures; no user save, production content or earned-growth evidence is modified",
+      "version": "0.5.0-dev.41"
     }
   },
-  "publication_note": "Prepared publication metadata; online deployment must be verified separately."
+  "publication_note": "Prepared release metadata; actual deployment and exact resource identity are recorded separately."
 }
