@@ -1,307 +1,97 @@
 {
-  "version": "0.5.0-dev.36",
+  "version": "0.5.0-dev.40",
   "date": "2026-10-11",
-  "build": "test-20261011-034835",
+  "build": "test-20261011-223928",
   "status": "development_preview",
-  "save_schema": 16,
-  "random_packs": {
-    "evidence": "docs/evidence/random-encounters-dev29.json",
-    "saved_members": true,
-    "retry_rerolls": false,
-    "load_consumes_rng": false,
-    "group_hp_bonus_default": 0.0,
-    "bosses_single": true
-  },
-  "published": true,
   "stable_0_5": false,
-  "source_scripts_verified": 209,
-  "test_speed": {
-    "menu": "测试速度 60倍",
-    "default": false,
-    "saved": true,
-    "live_multiplier": 60,
-    "offline_multiplier": 1,
-    "real_online_clock": true,
-    "pacing_history_marked": true
-  },
-  "content_changes": "prominent enemy-icon button left of equipment; card-based base/effective elite probabilities, complete regional affix pools, conditional special drop rates and unique-rune acquisition status; no combat or reward changes",
-  "milestone_rewards": {
-    "revision": 28,
-    "active_rewards": 1248,
-    "historical_payment_definitions": 1808,
-    "retired_rows": 560,
-    "material_tiers": 35,
-    "material_max": 1000000,
-    "ordinary_tiers": 35,
-    "ordinary_max": 48000,
-    "all_active_counts_multiple_of_ten": true,
-    "elite_tiers_per_species": 15,
-    "elite_first": 10,
-    "elite_max": 300,
-    "ordinary_percent_start": 0.005,
-    "percent_step": 0.005,
-    "percent_cap_per_stat_payment": 0.05,
-    "ordinary_tiers_per_percent_step": [
-      3,
-      4
-    ],
-    "flat_step": 0.5,
-    "cumulative_percent_cap": null,
-    "historical_clawback": false,
-    "ledger_prefix": "dev28:"
-  },
-  "world_selection_ui": {
-    "world_entry_height": 116,
-    "destination_height": 48,
-    "destination_font": 16,
-    "mobile_launcher_font": 18,
-    "mobile_drawer_height": 300,
-    "world_colors": [
-      "amber",
-      "green",
-      "blue"
-    ],
-    "selected_outline": true,
-    "browsing_changes_gameplay_state": false,
-    "evidence": "docs/world-selection-ui-dev31.md"
-  },
-  "crafting_ui": {
-    "icon_logical_pixels": [
-      96,
-      96
-    ],
-    "equipment_repeatable": true,
-    "runes_lifetime_unique": true,
-    "museum_actions_per_form": 1,
-    "gathering_interval_always_visible": true,
-    "derived_gathering_interval_notices": false,
-    "evidence": "docs/crafting-museum-gathering-dev30.md"
-  },
-  "character_source_ui": {
-    "category_initially_collapsed": true,
-    "source_and_tier_totals": true,
-    "stable_identity_grouping": true,
-    "lazy_children": true,
-    "historical_unknown_kept_as_aggregate": true,
-    "fixed_and_percentage_units_separate": true,
-    "increase_and_more_separate": true,
-    "evidence": "docs/evidence/character-source-ui-dev27.json",
-    "regression_rerun_in_this_batch": true
-  },
-  "milestone_ui": {
-    "card": [
-      132,
-      172
-    ],
-    "icon_slot": [
-      48,
-      48
-    ],
-    "title_slot": [
-      112,
-      56
-    ],
-    "progress_slot": [
-      112,
-      34
-    ],
-    "grid_gap": 10,
-    "detail_icon": [
-      72,
-      72
-    ],
-    "logical_pixel_units": true
-  },
-  "earned_growth": {
-    "evidence_version": "0.5.0-dev.35",
-    "rerun_in_this_batch": false,
-    "samples": 12,
-    "seeds": [
-      11,
-      29,
-      47
-    ],
-    "first_clear_range_seconds": [
-      666.0,
-      951.0
-    ],
-    "all_sustained_boss": true,
-    "strategy": "Earn all items and core points; defeat 40 wax priests before boss entry.",
-    "optional_armor": false,
-    "player_reading_time_included": false
-  },
-  "native_10_second_target_passed": false,
-  "web_browser_gameplay": "not_verified",
-  "mobile_device_verification": "not_completed",
-  "remaining": [
-    "full_build_and_two_world_growth",
-    "earned_route_blueprint_material_timing",
-    "elite_terminal_time_and_probability_budget",
-    "boss_behavior_and_random_drop_calibration",
-    "unique_recipe_routes_and_permanent_growth_budgets",
-    "offline_margin_and_platform_acceptance"
+  "save_schema": 17,
+  "incompatible_save_policy": "reset_local_save_reject_old_import",
+  "published": true,
+  "previous_online_version": "0.5.0-dev.36",
+  "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
+  "changes_since_previous_online": [
+    "equipment compare and awakening tabs",
+    "clear probability wording and five-second reward notices",
+    "split prologue unlocks at 10/30/60 kills",
+    "one numerical attribute per non-elite tier without compensation",
+    "calibrated enemy health and fresh three-lamp self-burial rule"
   ],
-  "community_test": {
-    "planned_after": "0.7 completed",
-    "player_feedback": "large_changes_in_versioned_batches"
+  "milestone_rewards": {
+    "non_elite_numeric_attributes_per_tier": 1,
+    "non_elite_tiers": 1098,
+    "ordinary_tiers_total": 350,
+    "ordinary_flat_attack_total": 260,
+    "all_milestone_flat_attack_total": 666,
+    "all_permanent_flat_attack_total": 670,
+    "non_elite_percent_cap": 0.025,
+    "elite_rewards_unchanged": true
   },
-  "hub_art_ui": {
-    "paintings": 3,
-    "dimensions": [
-      1536,
-      1024
-    ],
-    "hero_height": [
-      206,
-      176
-    ],
-    "selector_height": 48,
-    "tab_height": 48,
-    "title_font": 28,
-    "card_title_font": 22,
-    "world_colors": [
-      "amber",
-      "green",
-      "blue"
-    ],
-    "gameplay_changed": false,
-    "evidence": "docs/hub-art-ui-dev32.md",
-    "prompt_manifest": "art/production/hubs-v1/manifest.json"
+  "combat_health": {
+    "loc_1_1": 80,
+    "loc_1_2": 85,
+    "loc_1_3": 140,
+    "loc_1_4": 350,
+    "curse_moth": 100,
+    "loc_1_boss": 1200,
+    "mountain_low": 600,
+    "city_low": 600,
+    "mountain_high": 2200,
+    "city_high": 2200
   },
-  "npc_cards_dialogue": {
-    "card_base_width": 284,
-    "gap": 12,
-    "quest_card_height": 454,
-    "merchant_card_height": 372,
-    "scene_height": [
-      144,
-      128
+  "fresh_default_self_burial_min_lamps": 3,
+  "explicit_player_rules_preserved": true,
+  "source_scripts_verified": 214,
+  "verification": {
+    "version": "0.5.0-dev.40",
+    "full_business_and_ui": "passed",
+    "godot_checks": 106,
+    "logs": {
+      "builds\\verify-dev40-final.log": {
+        "bytes": 12764,
+        "sha256": "2d7c7cc79f6c350678e8c6e81591c85d07c958bd0c3fb54a140774b2003bf6e0"
+      },
+      "builds\\verify-dev40-ui-resume.log": {
+        "bytes": 184,
+        "sha256": "dca1257f806cbb239e90a209f38dec12fa114708f985ec2a18fc8efdb105bf7b"
+      },
+      "builds\\verify-dev40-ui-resume2.log": {
+        "bytes": 18394,
+        "sha256": "692ad4d65789318a874ce4a57e40107af6a018c4881429308ebf2b46597c09d2"
+      }
+    },
+    "segmented": true,
+    "old_health_fixture_failures_corrected": 2,
+    "earned_prologue_samples": 12,
+    "earned_two_world_samples": 24,
+    "initial_two_world_passes": 22,
+    "cannon_seed29_censer_retry_passes": 2,
+    "original_failures_preserved": true,
+    "player_choices": [
+      "bow flow combat style",
+      "100 wax-priest preparation",
+      "affordable armor",
+      "cannon four-lamp frontier reserve",
+      "close melee attack in frontier",
+      "earned memory censer for cannon seed29"
     ],
-    "horizontal_and_wrap": true,
-    "portrait_fallback": "art/ui/npcs/shadow-v1.svg",
-    "authored_quests": 10,
-    "lines_per_quest": 4,
-    "merchant_greetings": 3,
-    "accept_or_turn_in_on_confirm_only": true,
-    "response_does_not_resubmit": true,
-    "live_stock_preserves_nodes": true,
-    "reading_pauses_live_and_60x": true,
-    "content_rules_changed": false,
-    "evidence": "docs/npc-cards-dialogue-dev33.md"
-  },
-  "enemy_soul_loop": {
-    "revision": 34,
-    "first_three_dogs_revives": 2,
-    "soul_shock_clears_accumulated_resistance": true,
-    "native_resistance_retained": true,
-    "affixes_outside_prologue_only": [
-      "warded",
-      "evasive",
-      "mirror"
-    ],
-    "evidence": "docs/enemy-soul-loop-dev34.md"
-  },
-  "soul_lamp_haste": {
-    "revision": 35,
-    "base_seconds": 6.5,
-    "minimum_seconds": 4.001,
-    "formula": "max(4.001,4+2.5/max(0.1,1+haste/100))",
-    "legacy_fields_retained": true,
-    "kills_and_spells_cannot_bypass_minimum": true,
-    "base_protection_seconds": 0.8,
-    "protection_limit_seconds": 2.4,
-    "protection_strictly_below_cd_ratio": 0.8,
-    "evidence": "docs/soul-lamp-haste-dev35.md"
-  },
-  "files": {
-    "windows/DualCurse.exe": {
-      "bytes": 152606376,
-      "sha256": "0a2d928d926063231625d75e690d002a27ee5b61cf7063c4c3e1fcb0631baf7e"
+    "native_export_probe": {
+      "art_sources": 7,
+      "failures": [],
+      "monsters": 9,
+      "ordinary_live_tiers": 350,
+      "user_path": "C:/Users/Administrator/AppData/Roaming/DualCurse-Test",
+      "version": "0.5.0-dev.40"
     },
-    "windows/FONT-LICENSE.txt": {
-      "bytes": 4388,
-      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
-    },
-    "windows/GODOT-COPYRIGHT.txt": {
-      "bytes": 97253,
-      "sha256": "2039020f520ebd55592070ede2ef38dfbc28a6550140008da004143872789e5d"
-    },
-    "windows/GODOT-LICENSE.txt": {
-      "bytes": 1149,
-      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
-    },
-    "web/FONT-LICENSE.txt": {
-      "bytes": 4388,
-      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
-    },
-    "web/GODOT-COPYRIGHT.txt": {
-      "bytes": 97253,
-      "sha256": "2039020f520ebd55592070ede2ef38dfbc28a6550140008da004143872789e5d"
-    },
-    "web/GODOT-LICENSE.txt": {
-      "bytes": 1149,
-      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
-    },
-    "web/index.audio.position.worklet.js": {
-      "bytes": 2973,
-      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
-    },
-    "web/index.audio.worklet.js": {
-      "bytes": 7298,
-      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
-    },
-    "web/index.html": {
-      "bytes": 5754,
-      "sha256": "12b1ddf266fc66e41cfd849625c768277ece226593ce8bb13a5b5bbfe97f4dda"
-    },
-    "web/index.js": {
-      "bytes": 305185,
-      "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
-    },
-    "web/index.pck": {
-      "bytes": 55843992,
-      "sha256": "907039884f029b94cb2ac83f1fe20b1867c197d2ca56338981535aaf7761886c"
-    },
-    "web/index.png": {
-      "bytes": 21443,
-      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
-    },
-    "web/index.wasm": {
-      "bytes": 38057390,
-      "sha256": "1cee4c470d1fea06f7f3fbd22a563ffd0f1a55b54596b33cb9b695021ae476b0"
+    "source_scripts_verified": 214,
+    "content_digest": "fc0c486ebabc8466689f28993f9c0195b36d04f818fbb9e755c543c27043c40c",
+    "browser_gameplay_verified": false,
+    "real_mobile_device_verified": false,
+    "offline_performance_rerun": false,
+    "long_all_builds_verified": false,
+    "bow_long_first_branch": {
+      "test_errors": 0,
+      "reference": "docs\\evidence\\combat-budget-dev40-bow-long.json"
     }
   },
-  "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
-  "previous_online_version": "0.5.0-dev.35",
-  "previous_native_high_load_sample": {
-    "version": "0.5.0-dev.35",
-    "wall_seconds": 16.183268,
-    "clears": 10809,
-    "failed": false,
-    "rerun_in_this_batch": false
-  },
-  "enemy_information": {
-    "revision": 36,
-    "entry_left_of_weapon": true,
-    "current_monster_icon": true,
-    "entry_minimum": [
-      154,
-      48
-    ],
-    "phone_touch_height": 54,
-    "base_and_effective_elite_chance": true,
-    "complete_regional_affix_pool": true,
-    "conditional_and_per_wave_special_rates": true,
-    "unique_rune_history_shown": true,
-    "probability_decimals_up_to": 4,
-    "read_only_no_rng": true,
-    "evidence": "docs/enemy-information-dev36.md"
-  },
-  "new_features_since_previous_online": [
-    "prominent_enemy_icon_entry_left_of_weapon",
-    "base_and_effective_elite_probability",
-    "complete_regional_affix_pool",
-    "conditional_special_drop_rates",
-    "unique_rune_acquisition_status"
-  ]
+  "publication_note": "Prepared publication metadata; online deployment must be verified separately."
 }
