@@ -1,0 +1,2 @@
+# Preserve the verified export bytes, including generated text assets.
+dual-curse/** -text

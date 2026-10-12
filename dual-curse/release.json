@@ -1,11 +1,11 @@
 {
-  "version": "0.5.0-dev.41",
+  "version": "0.5.0-dev.44",
   "date": "2026-10-12",
-  "build": "test-20261011-233420",
-  "status": "development_preview",
+  "build": "test-20261012-143057",
+  "status": "v05_closeout_preview",
   "stable_0_5": false,
   "published": true,
-  "previous_online_version": "0.5.0-dev.40",
+  "previous_online_version": "0.5.0-dev.41",
   "url": "https://zongzongtate.github.io/zongrepository.github.io/dual-curse/",
   "save_schema": 17,
   "star_graph_version": 2,
@@ -16,145 +16,161 @@
   "star_mechanisms": 8,
   "star_full_allocation_cost": 76,
   "legal_rune_max_star_points": 50,
+  "ordinary_milestone_fixed_attack": 260,
+  "total_permanent_fixed_attack": 670,
+  "final_v1_foundation_attack_target": [
+    300000,
+    500000
+  ],
   "changes_since_previous_online": [
-    "irregular star clusters and alternate connections",
-    "24 additional single-attribute nodes including six notables",
-    "search and node focus",
-    "read-only cheapest route and remaining point cost",
-    "viewport-fit overview and offscreen-label culling"
+    "material drop consumers and ETA use the same effective sources",
+    "current-location ETA observes recent real combat cycles",
+    "offline milestone scanning cache preserves payment order and RNG",
+    "offline live loot ledger with material icons, battle counters and progress narrative",
+    "desktop guide and elite title overflow fixed",
+    "six additional production font glyphs"
   ],
   "known_issues": [
-    "generic monster material drop bonuses omitted from actual consumer",
-    "treasure style bonus omitted from material ETA projection",
-    "fixed high-load offline benchmark above ten-second target",
-    "complete long-build and browser or real-device acceptance incomplete"
+    "early bow random elite boundary: seeds 0, 15 and 30 failed in both old and new 32-seed samples",
+    "normal story reward sword has an unresolved loc_1_3 progression boundary",
+    "all long builds and rare acquisition branches not fully accepted",
+    "full Web gameplay and real mobile performance, lifecycle and touch acceptance incomplete"
   ],
   "verification": {
-    "version": "0.5.0-dev.41",
-    "build": "test-20261011-233420",
+    "version": "0.5.0-dev.44",
+    "build": "test-20261012-143057",
+    "date": "2026-10-12",
     "save_schema": 17,
-    "graph_version": 2,
+    "star_graph_version": 2,
     "stable_0_5": false,
-    "nodes": 68,
-    "small_nodes": 54,
-    "notables": 6,
-    "mechanisms": 8,
-    "full_allocation_cost": 76,
-    "legal_rune_max_points": 50,
-    "all_business_and_ui_checks": 106,
-    "source_scripts_verified": 214,
-    "segmented": true,
-    "original_failed_fixture_preserved": true,
-    "old_star_route_fixture_corrected": true,
-    "prologue_samples": 12,
-    "earned_cluster_frontier_samples": 8,
-    "frontier_seeds": [
-      11
-    ],
-    "all_frontier_cluster_goals_allocated": true,
-    "injected_growth_resources": false,
-    "real_mobile_device_verified": false,
-    "browser_gameplay_verified": false,
-    "long_all_builds_verified": false,
-    "offline_performance_rerun": true,
+    "scoped_checks": 14,
+    "segmented": false,
+    "full_111_check_list_rerun": true,
+    "prior_dev43_full_109_checks": "docs/evidence/eta-offline-dev43.json",
+    "source_scripts_verified": 218,
+    "assets_and_font_match": true,
+    "new_font_glyphs": 6,
+    "content_guard": {
+      "content_definitions_unchanged": true,
+      "content_digest": "623c31b663a890307df05a4ff020c15a2f3a6970d6910207cb9d396776807e2a",
+      "version": "0.5.0-dev.44"
+    },
     "native_export_probe": {
       "art_sources": 7,
       "failures": [],
       "monsters": 9,
       "ordinary_live_tiers": 350,
       "user_path": "C:/Users/Administrator/AppData/Roaming/DualCurse-Test",
-      "version": "0.5.0-dev.41"
+      "version": "0.5.0-dev.44"
     },
-    "content_digest": "623c31b663a890307df05a4ff020c15a2f3a6970d6910207cb9d396776807e2a",
-    "content_guard_reference": "docs/evidence/star-clusters-dev41-content-guard.json",
-    "verification_log": {
-      "sha256": "cd4a25e61e0b87ec86050c289606321c31fc4c28d59af8f18bbf041ecb251063",
-      "bytes": 23870
+    "native_ledger_probe": {
+      "failures": [],
+      "readonly_rng_verified": true,
+      "resolutions": [
+        1280,
+        360
+      ],
+      "version": "0.5.0-dev.44"
     },
-    "verification_resume_log": {
-      "sha256": "68bd7746d7cf4b6828b6eeea6498f3a80150e7417eacb0707110a7207579d8d2",
-      "bytes": 7267
-    },
-    "player_choices": [
-      "flow bow combat style",
-      "100 wax-priest preparation",
-      "affordable armor",
-      "four-lamp cannon frontier reserve",
-      "close melee frontier attacks",
-      "earned cannon memory censer",
-      "primary specialization after survival supports"
+    "displays": [
+      "clears",
+      "kills",
+      "elite_clears",
+      "material acquisition delta",
+      "milestones",
+      "progress",
+      "estimated remaining time"
     ],
-    "offline_benchmark": {
-      "combat": {
-        "capped_hours": 8.0,
-        "clears": 14322,
-        "core": "arcane_echo",
-        "cores": [
-          "self_burial_spell",
-          "burial_fire",
-          "soul_overload",
-          "phantom_chase",
-          "arcane_echo"
-        ],
-        "failed": false,
-        "location": "loc_1_boss",
-        "mode": "combat",
-        "requested_hours": 24.0,
-        "simulated_seconds": 28799.9999999691,
-        "wall_seconds": 18.827292,
-        "weapon": "old_wood_bow_plus"
-      },
+    "acquisition_not_inventory_delta": true,
+    "prior_online_excluded": true,
+    "refresh_readonly_rng_verified": true,
+    "no_artificial_wait_added": true,
+    "reuse_material_rows": true,
+    "pulse_on_increase": true,
+    "source_live_ui": {
+      "full_eight_hours": true,
       "synthetic_fixed_build": true,
-      "target_seconds": 10,
-      "target_met": false
+      "wall_seconds": 15.332364,
+      "samples_verified": 31,
+      "mid_settlement_rotation_verified": true,
+      "cleanup_verified": true
     },
-    "readiness_audit": {
-      "data_validation_errors": [],
-      "findings": [
+    "offline_benchmark": {
+      "execution_mode": "native Windows export --headless",
+      "synthetic_fixed_build": true,
+      "samples": [
         {
-          "actual_chance_with_node": 0.38,
-          "baseline_chance": 0.38,
-          "confirmed": true,
-          "expected_chance_with_node": 0.39,
-          "id": "material_drop_source_gap",
-          "reported_node_bonus": 0.01
-        },
-        {
-          "actual_drop_chance": 0.49,
-          "confirmed": true,
-          "eta_overestimate_ratio": 0.289473684210526,
-          "expected_material_per_cycle": 1.47,
-          "held_rune": "first_light_rune",
-          "id": "treasure_eta_gap",
-          "projected_material_per_cycle": 1.14,
-          "style": "treasure"
-        },
-        {
-          "completed_stage_action": "open_page",
-          "completed_stage_target": "debug_list",
-          "expedition_goal_count": 2,
-          "goal_ids": [
-            "first_gate",
-            "first_weapon",
-            "toy_wall",
-            "first_rune",
-            "first_star",
-            "boss",
-            "first_gather",
-            "first_tool",
-            "iron_line",
-            "first_facility",
-            "three_facilities",
-            "achievements"
+          "capped_hours": 8.0,
+          "clears": 14322,
+          "core": "arcane_echo",
+          "cores": [
+            "self_burial_spell",
+            "burial_fire",
+            "soul_overload",
+            "phantom_chase",
+            "arcane_echo"
           ],
-          "id": "post_prologue_guidance_scope",
-          "note": "Existing expedition boss checklist is separate; this observation does not mean there are no two-world goals."
+          "failed": false,
+          "location": "loc_1_boss",
+          "mode": "combat",
+          "requested_hours": 24.0,
+          "settlement_digest": "83ee092b4682d7ad94a7b413844b1ca14d1a4d5aea00d73983a17e423b862921",
+          "simulated_seconds": 28799.9999999691,
+          "wall_seconds": 13.32938,
+          "weapon": "old_wood_bow_plus"
+        },
+        {
+          "capped_hours": 8.0,
+          "clears": 14322,
+          "core": "arcane_echo",
+          "cores": [
+            "self_burial_spell",
+            "burial_fire",
+            "soul_overload",
+            "phantom_chase",
+            "arcane_echo"
+          ],
+          "failed": false,
+          "location": "loc_1_boss",
+          "mode": "combat",
+          "requested_hours": 24.0,
+          "settlement_digest": "83ee092b4682d7ad94a7b413844b1ca14d1a4d5aea00d73983a17e423b862921",
+          "simulated_seconds": 28799.9999999691,
+          "wall_seconds": 12.894896,
+          "weapon": "old_wood_bow_plus"
         }
       ],
-      "production_changes": false,
-      "scope": "isolated synthetic mechanism fixtures; no user save, production content or earned-growth evidence is modified",
-      "version": "0.5.0-dev.41"
+      "target_seconds": 20,
+      "target_met": true,
+      "user_confirmed_threshold_date": "2026-10-12",
+      "old_10_second_target_superseded": true,
+      "full_state_runtime_metrics_rng_equal_to_dev43": true
+    },
+    "initial_unused_label_leak_fixed": true,
+    "initial_missing_glyphs_fixed": true,
+    "counter_name_draw_bounds_verified": true,
+    "initial_stale_report_fixture_preserved": true,
+    "report_fixture_authored_threshold": 3000,
+    "web_pack_sha256": "cfe0098ec3bbd65e67802caca4dd9522dd842f193558ecf9d2362359166a473d",
+    "real_mobile_verified": false,
+    "browser_full_gameplay_verified": false,
+    "new_growth_acceptance": false,
+    "scoped_checks_segmented": true,
+    "all_business_and_ui_checks": 111,
+    "final_regression_log": {
+      "bytes": 31511,
+      "sha256": "0c511f07ac7b7cadf96e98758d92a5e16933bebf091012d6e7ae2ccb386a9f93"
+    },
+    "release_native_probe_log": {
+      "bytes": 367,
+      "sha256": "e90a6531589da1429bc2f20d23e1c6626b5d50d832fa85b5051ad7bebc11aee3"
+    },
+    "release_live_ui": {
+      "wall_seconds": 17.078965,
+      "samples_verified": 34,
+      "full_eight_hours": true,
+      "synthetic_fixed_build": true
     }
   },
-  "publication_note": "Prepared release metadata; actual deployment and exact resource identity are recorded separately."
+  "publication_note": "Full frozen regression passed. Deployment and exact public resource hashes are recorded separately in release-dev44.json."
 }
